@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0DFA835BCCC584E85ACA5D /* libPods-GuoMeiMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF614560F9288B6D83DBC78 /* libPods-GuoMeiMall.a */; };
+		F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */; };
+		F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFEE207B1077005F8B30 /* GMNavController.m */; };
+		F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFF1207B1739005F8B30 /* GMTabController.m */; };
+		F078F008207B36AE005F8B30 /* GMBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F007207B36AE005F8B30 /* GMBaseController.m */; };
+		F078F00B207B3951005F8B30 /* GMMyCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F00A207B3951005F8B30 /* GMMyCenterController.m */; };
+		F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F00D207B3997005F8B30 /* GMBeautyMessageController.m */; };
+		F078F011207B3A44005F8B30 /* GMBeautyShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F010207B3A44005F8B30 /* GMBeautyShopController.m */; };
+		F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F013207B3A9C005F8B30 /* GMMediaListController.m */; };
+		F078F017207B3BE3005F8B30 /* GMHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F016207B3BE3005F8B30 /* GMHomeController.m */; };
+		F078F01C207B4C77005F8B30 /* GMNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F01B207B4C77005F8B30 /* GMNewFeatureController.m */; };
+		F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F01E207B4CB7005F8B30 /* GMNewFeatureCell.m */; };
+		F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B883207A0D5400379213 /* AppDelegate.m */; };
+		F0C0B887207A0D5400379213 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B886207A0D5400379213 /* ViewController.m */; };
+		F0C0B88A207A0D5400379213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C0B888207A0D5400379213 /* Main.storyboard */; };
+		F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C0B88B207A0D5400379213 /* Assets.xcassets */; };
+		F0C0B88F207A0D5400379213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C0B88D207A0D5400379213 /* LaunchScreen.storyboard */; };
+		F0C0B892207A0D5400379213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B891207A0D5400379213 /* main.m */; };
+		F0C0B89C207A0D5400379213 /* GuoMeiMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B89B207A0D5400379213 /* GuoMeiMallTests.m */; };
+		F0C0B8A7207A0D5400379213 /* GuoMeiMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B8A6207A0D5400379213 /* GuoMeiMallUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0C0B898207A0D5400379213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C0B877207A0D5400379213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C0B87E207A0D5400379213;
+			remoteInfo = GuoMeiMall;
+		};
+		F0C0B8A3207A0D5400379213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0C0B877207A0D5400379213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C0B87E207A0D5400379213;
+			remoteInfo = GuoMeiMall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D8F9D0277B317D467E313DB /* Pods-GuoMeiMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuoMeiMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuoMeiMall/Pods-GuoMeiMall.release.xcconfig"; sourceTree = "<group>"; };
+		B7B54A8E0B51C06CFB6A4B1D /* Pods-GuoMeiMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuoMeiMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuoMeiMall/Pods-GuoMeiMall.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF614560F9288B6D83DBC78 /* libPods-GuoMeiMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuoMeiMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F078EFE7207AFFC5005F8B30 /* MacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		F078EFE8207AFFC5005F8B30 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F078EFEB207B0A05005F8B30 /* CommonUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		F078EFEC207B0A30005F8B30 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F078EFED207B1077005F8B30 /* GMNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNavController.h; sourceTree = "<group>"; };
+		F078EFEE207B1077005F8B30 /* GMNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNavController.m; sourceTree = "<group>"; };
+		F078EFF0207B1739005F8B30 /* GMTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMTabController.h; sourceTree = "<group>"; };
+		F078EFF1207B1739005F8B30 /* GMTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMTabController.m; sourceTree = "<group>"; };
+		F078F006207B36AE005F8B30 /* GMBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBaseController.h; sourceTree = "<group>"; };
+		F078F007207B36AE005F8B30 /* GMBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBaseController.m; sourceTree = "<group>"; };
+		F078F009207B3951005F8B30 /* GMMyCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMyCenterController.h; sourceTree = "<group>"; };
+		F078F00A207B3951005F8B30 /* GMMyCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMyCenterController.m; sourceTree = "<group>"; };
+		F078F00C207B3997005F8B30 /* GMBeautyMessageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBeautyMessageController.h; sourceTree = "<group>"; };
+		F078F00D207B3997005F8B30 /* GMBeautyMessageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBeautyMessageController.m; sourceTree = "<group>"; };
+		F078F00F207B3A44005F8B30 /* GMBeautyShopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBeautyShopController.h; sourceTree = "<group>"; };
+		F078F010207B3A44005F8B30 /* GMBeautyShopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBeautyShopController.m; sourceTree = "<group>"; };
+		F078F012207B3A9C005F8B30 /* GMMediaListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMediaListController.h; sourceTree = "<group>"; };
+		F078F013207B3A9C005F8B30 /* GMMediaListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMediaListController.m; sourceTree = "<group>"; };
+		F078F015207B3BE3005F8B30 /* GMHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHomeController.h; sourceTree = "<group>"; };
+		F078F016207B3BE3005F8B30 /* GMHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHomeController.m; sourceTree = "<group>"; };
+		F078F01A207B4C77005F8B30 /* GMNewFeatureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNewFeatureController.h; sourceTree = "<group>"; };
+		F078F01B207B4C77005F8B30 /* GMNewFeatureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNewFeatureController.m; sourceTree = "<group>"; };
+		F078F01D207B4CB7005F8B30 /* GMNewFeatureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNewFeatureCell.h; sourceTree = "<group>"; };
+		F078F01E207B4CB7005F8B30 /* GMNewFeatureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNewFeatureCell.m; sourceTree = "<group>"; };
+		F0C0B87F207A0D5400379213 /* GuoMeiMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuoMeiMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C0B882207A0D5400379213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0C0B883207A0D5400379213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0C0B885207A0D5400379213 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0C0B886207A0D5400379213 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0C0B889207A0D5400379213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0C0B88B207A0D5400379213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0C0B88E207A0D5400379213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0C0B890207A0D5400379213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C0B891207A0D5400379213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0C0B897207A0D5400379213 /* GuoMeiMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuoMeiMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C0B89B207A0D5400379213 /* GuoMeiMallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuoMeiMallTests.m; sourceTree = "<group>"; };
+		F0C0B89D207A0D5400379213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C0B8A2207A0D5400379213 /* GuoMeiMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuoMeiMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C0B8A6207A0D5400379213 /* GuoMeiMallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuoMeiMallUITests.m; sourceTree = "<group>"; };
+		F0C0B8A8207A0D5400379213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0C0B87C207A0D5400379213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0DFA835BCCC584E85ACA5D /* libPods-GuoMeiMall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C0B894207A0D5400379213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C0B89F207A0D5400379213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E0D57C0C41F44BAFFAED9E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7B54A8E0B51C06CFB6A4B1D /* Pods-GuoMeiMall.debug.xcconfig */,
+				2D8F9D0277B317D467E313DB /* Pods-GuoMeiMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D863D75A2A63CFEA30225098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFF614560F9288B6D83DBC78 /* libPods-GuoMeiMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F078EFE6207AFFA3005F8B30 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFE7207AFFC5005F8B30 /* MacroDefine.h */,
+				F078EFE8207AFFC5005F8B30 /* UIView+Extension.h */,
+				F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */,
+				F078EFEB207B0A05005F8B30 /* CommonUtil.h */,
+			);
+			name = Other;
+			path = GuoMeiMall/Classes/Other;
+			sourceTree = SOURCE_ROOT;
+		};
+		F078EFF3207B34F3005F8B30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F078F00F207B3A44005F8B30 /* GMBeautyShopController.h */,
+				F078F010207B3A44005F8B30 /* GMBeautyShopController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F078EFF4207B34F3005F8B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F078EFF5207B34F3005F8B30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F078EFF6207B3580005F8B30 /* MyCenter(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFF7207B3580005F8B30 /* Controller */,
+				F078EFF8207B3580005F8B30 /* Model */,
+				F078EFF9207B3580005F8B30 /* View */,
+			);
+			name = "MyCenter(个人中心)";
+			path = "GuoMeiMall/Classes/MyCenter(个人中心)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F078EFF7207B3580005F8B30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F078F009207B3951005F8B30 /* GMMyCenterController.h */,
+				F078F00A207B3951005F8B30 /* GMMyCenterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F078EFF8207B3580005F8B30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F078EFF9207B3580005F8B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F078EFFA207B358F005F8B30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F078EFFB207B358F005F8B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F078EFFC207B358F005F8B30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F078F00C207B3997005F8B30 /* GMBeautyMessageController.h */,
+				F078F00D207B3997005F8B30 /* GMBeautyMessageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F078EFFD207B359A005F8B30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F078EFFE207B359A005F8B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F078EFFF207B359A005F8B30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F078F000207B35A3005F8B30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F078F015207B3BE3005F8B30 /* GMHomeController.h */,
+				F078F016207B3BE3005F8B30 /* GMHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F078F001207B35A3005F8B30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F078F002207B35A3005F8B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F078F003207B35BB005F8B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F078F004207B35BB005F8B30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F078F012207B3A9C005F8B30 /* GMMediaListController.h */,
+				F078F013207B3A9C005F8B30 /* GMMediaListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F078F005207B35BB005F8B30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F078F018207B4C50005F8B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F078F01D207B4CB7005F8B30 /* GMNewFeatureCell.h */,
+				F078F01E207B4CB7005F8B30 /* GMNewFeatureCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F078F019207B4C50005F8B30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F078F01A207B4C77005F8B30 /* GMNewFeatureController.h */,
+				F078F01B207B4C77005F8B30 /* GMNewFeatureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F0C0B876207A0D5400379213 = {
+			isa = PBXGroup;
+			children = (
+				F0C0B881207A0D5400379213 /* GuoMeiMall */,
+				F0C0B89A207A0D5400379213 /* GuoMeiMallTests */,
+				F0C0B8A5207A0D5400379213 /* GuoMeiMallUITests */,
+				F0C0B880207A0D5400379213 /* Products */,
+				7E0D57C0C41F44BAFFAED9E1 /* Pods */,
+				D863D75A2A63CFEA30225098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F0C0B880207A0D5400379213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C0B87F207A0D5400379213 /* GuoMeiMall.app */,
+				F0C0B897207A0D5400379213 /* GuoMeiMallTests.xctest */,
+				F0C0B8A2207A0D5400379213 /* GuoMeiMallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C0B881207A0D5400379213 /* GuoMeiMall */ = {
+			isa = PBXGroup;
+			children = (
+				F0C0B8B4207A0D7300379213 /* Classes */,
+				F0C0B885207A0D5400379213 /* ViewController.h */,
+				F0C0B886207A0D5400379213 /* ViewController.m */,
+				F0C0B888207A0D5400379213 /* Main.storyboard */,
+				F0C0B88B207A0D5400379213 /* Assets.xcassets */,
+				F0C0B88D207A0D5400379213 /* LaunchScreen.storyboard */,
+				F0C0B890207A0D5400379213 /* Info.plist */,
+				F0C0B891207A0D5400379213 /* main.m */,
+				F078EFEC207B0A30005F8B30 /* PrefixHeader.pch */,
+			);
+			path = GuoMeiMall;
+			sourceTree = "<group>";
+		};
+		F0C0B89A207A0D5400379213 /* GuoMeiMallTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C0B89B207A0D5400379213 /* GuoMeiMallTests.m */,
+				F0C0B89D207A0D5400379213 /* Info.plist */,
+			);
+			path = GuoMeiMallTests;
+			sourceTree = "<group>";
+		};
+		F0C0B8A5207A0D5400379213 /* GuoMeiMallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C0B8A6207A0D5400379213 /* GuoMeiMallUITests.m */,
+				F0C0B8A8207A0D5400379213 /* Info.plist */,
+			);
+			path = GuoMeiMallUITests;
+			sourceTree = "<group>";
+		};
+		F0C0B8B4207A0D7300379213 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFF6207B3580005F8B30 /* MyCenter(个人中心) */,
+				F078EFE6207AFFA3005F8B30 /* Other */,
+				F0C0B8B6207A139400379213 /* BeautyMessage(美信) */,
+				F0C0B8BA207A139400379213 /* BeautyShop(美店) */,
+				F0C0B8B9207A139400379213 /* Classify(分类) */,
+				F0C0B8BD207A139400379213 /* Details(商品详情) */,
+				F0C0B8BC207A139400379213 /* Expand(扩展) */,
+				F0C0B8B7207A139400379213 /* Home(首页) */,
+				F0C0B8C0207A139500379213 /* Login(登录) */,
+				F0C0B8B8207A139400379213 /* Main */,
+				F0C0B8BB207A139400379213 /* MdeiaList(美媒榜) */,
+				F0C0B8BE207A139400379213 /* NewFeature(新特性) */,
+				F0C0B8BF207A139500379213 /* Resource */,
+				F0C0B8C1207A139500379213 /* ShoppingCar(购物车) */,
+				F0C0B8B5207A0E5F00379213 /* Appdelegate */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8B5207A0E5F00379213 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F0C0B882207A0D5400379213 /* AppDelegate.h */,
+				F0C0B883207A0D5400379213 /* AppDelegate.m */,
+			);
+			name = Appdelegate;
+			path = GuoMeiMall/Classes/Appdelegate;
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8B6207A139400379213 /* BeautyMessage(美信) */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFFC207B358F005F8B30 /* Controller */,
+				F078EFFA207B358F005F8B30 /* Model */,
+				F078EFFB207B358F005F8B30 /* View */,
+			);
+			name = "BeautyMessage(美信)";
+			path = "GuoMeiMall/Classes/BeautyMessage(美信)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8B7207A139400379213 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				F078F000207B35A3005F8B30 /* Controller */,
+				F078F001207B35A3005F8B30 /* Model */,
+				F078F002207B35A3005F8B30 /* View */,
+			);
+			name = "Home(首页)";
+			path = "GuoMeiMall/Classes/Home(首页)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8B8207A139400379213 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFED207B1077005F8B30 /* GMNavController.h */,
+				F078EFEE207B1077005F8B30 /* GMNavController.m */,
+				F078EFF0207B1739005F8B30 /* GMTabController.h */,
+				F078EFF1207B1739005F8B30 /* GMTabController.m */,
+				F078F006207B36AE005F8B30 /* GMBaseController.h */,
+				F078F007207B36AE005F8B30 /* GMBaseController.m */,
+			);
+			name = Main;
+			path = GuoMeiMall/Classes/Main;
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8B9207A139400379213 /* Classify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Classify(分类)";
+			path = "GuoMeiMall/Classes/Classify(分类)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8BA207A139400379213 /* BeautyShop(美店) */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFF3207B34F3005F8B30 /* Controller */,
+				F078EFF5207B34F3005F8B30 /* Model */,
+				F078EFF4207B34F3005F8B30 /* View */,
+			);
+			name = "BeautyShop(美店)";
+			path = "GuoMeiMall/Classes/BeautyShop(美店)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8BB207A139400379213 /* MdeiaList(美媒榜) */ = {
+			isa = PBXGroup;
+			children = (
+				F078F004207B35BB005F8B30 /* Controller */,
+				F078F005207B35BB005F8B30 /* Model */,
+				F078F003207B35BB005F8B30 /* View */,
+			);
+			name = "MdeiaList(美媒榜)";
+			path = "GuoMeiMall/Classes/MdeiaList(美媒榜)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8BC207A139400379213 /* Expand(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Expand(扩展)";
+			path = "GuoMeiMall/Classes/Expand(扩展)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8BD207A139400379213 /* Details(商品详情) */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFFD207B359A005F8B30 /* Controller */,
+				F078EFFF207B359A005F8B30 /* Model */,
+				F078EFFE207B359A005F8B30 /* View */,
+			);
+			name = "Details(商品详情)";
+			path = "GuoMeiMall/Classes/Details(商品详情)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8BE207A139400379213 /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				F078F019207B4C50005F8B30 /* Controller */,
+				F078F018207B4C50005F8B30 /* View */,
+			);
+			name = "NewFeature(新特性)";
+			path = "GuoMeiMall/Classes/NewFeature(新特性)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8BF207A139500379213 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			path = GuoMeiMall/Classes/Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8C0207A139500379213 /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Login(登录)";
+			path = "GuoMeiMall/Classes/Login(登录)";
+			sourceTree = SOURCE_ROOT;
+		};
+		F0C0B8C1207A139500379213 /* ShoppingCar(购物车) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "ShoppingCar(购物车)";
+			path = "GuoMeiMall/Classes/ShoppingCar(购物车)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0C0B87E207A0D5400379213 /* GuoMeiMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C0B8AB207A0D5400379213 /* Build configuration list for PBXNativeTarget "GuoMeiMall" */;
+			buildPhases = (
+				1F5AEBB9AE868F1A5794BB90 /* [CP] Check Pods Manifest.lock */,
+				F0C0B87B207A0D5400379213 /* Sources */,
+				F0C0B87C207A0D5400379213 /* Frameworks */,
+				F0C0B87D207A0D5400379213 /* Resources */,
+				F452C3BF906933A3B1C7D782 /* [CP] Embed Pods Frameworks */,
+				DF61552B36BD3FFE0A8FAFE2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuoMeiMall;
+			productName = GuoMeiMall;
+			productReference = F0C0B87F207A0D5400379213 /* GuoMeiMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0C0B896207A0D5400379213 /* GuoMeiMallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C0B8AE207A0D5400379213 /* Build configuration list for PBXNativeTarget "GuoMeiMallTests" */;
+			buildPhases = (
+				F0C0B893207A0D5400379213 /* Sources */,
+				F0C0B894207A0D5400379213 /* Frameworks */,
+				F0C0B895207A0D5400379213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C0B899207A0D5400379213 /* PBXTargetDependency */,
+			);
+			name = GuoMeiMallTests;
+			productName = GuoMeiMallTests;
+			productReference = F0C0B897207A0D5400379213 /* GuoMeiMallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0C0B8A1207A0D5400379213 /* GuoMeiMallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0C0B8B1207A0D5400379213 /* Build configuration list for PBXNativeTarget "GuoMeiMallUITests" */;
+			buildPhases = (
+				F0C0B89E207A0D5400379213 /* Sources */,
+				F0C0B89F207A0D5400379213 /* Frameworks */,
+				F0C0B8A0207A0D5400379213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C0B8A4207A0D5400379213 /* PBXTargetDependency */,
+			);
+			name = GuoMeiMallUITests;
+			productName = GuoMeiMallUITests;
+			productReference = F0C0B8A2207A0D5400379213 /* GuoMeiMallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0C0B877207A0D5400379213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GM;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = hjun;
+				TargetAttributes = {
+					F0C0B87E207A0D5400379213 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F0C0B896207A0D5400379213 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0C0B87E207A0D5400379213;
+					};
+					F0C0B8A1207A0D5400379213 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0C0B87E207A0D5400379213;
+					};
+				};
+			};
+			buildConfigurationList = F0C0B87A207A0D5400379213 /* Build configuration list for PBXProject "GuoMeiMall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0C0B876207A0D5400379213;
+			productRefGroup = F0C0B880207A0D5400379213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0C0B87E207A0D5400379213 /* GuoMeiMall */,
+				F0C0B896207A0D5400379213 /* GuoMeiMallTests */,
+				F0C0B8A1207A0D5400379213 /* GuoMeiMallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0C0B87D207A0D5400379213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C0B88F207A0D5400379213 /* LaunchScreen.storyboard in Resources */,
+				F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */,
+				F0C0B88A207A0D5400379213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C0B895207A0D5400379213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C0B8A0207A0D5400379213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F5AEBB9AE868F1A5794BB90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuoMeiMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF61552B36BD3FFE0A8FAFE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuoMeiMall/Pods-GuoMeiMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F452C3BF906933A3B1C7D782 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuoMeiMall/Pods-GuoMeiMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0C0B87B207A0D5400379213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F078F00B207B3951005F8B30 /* GMMyCenterController.m in Sources */,
+				F078F01C207B4C77005F8B30 /* GMNewFeatureController.m in Sources */,
+				F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */,
+				F078F017207B3BE3005F8B30 /* GMHomeController.m in Sources */,
+				F0C0B887207A0D5400379213 /* ViewController.m in Sources */,
+				F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */,
+				F0C0B892207A0D5400379213 /* main.m in Sources */,
+				F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */,
+				F078F011207B3A44005F8B30 /* GMBeautyShopController.m in Sources */,
+				F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */,
+				F078F008207B36AE005F8B30 /* GMBaseController.m in Sources */,
+				F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */,
+				F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */,
+				F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C0B893207A0D5400379213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C0B89C207A0D5400379213 /* GuoMeiMallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C0B89E207A0D5400379213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C0B8A7207A0D5400379213 /* GuoMeiMallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0C0B899207A0D5400379213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C0B87E207A0D5400379213 /* GuoMeiMall */;
+			targetProxy = F0C0B898207A0D5400379213 /* PBXContainerItemProxy */;
+		};
+		F0C0B8A4207A0D5400379213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C0B87E207A0D5400379213 /* GuoMeiMall */;
+			targetProxy = F0C0B8A3207A0D5400379213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0C0B888207A0D5400379213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C0B889207A0D5400379213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0C0B88D207A0D5400379213 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0C0B88E207A0D5400379213 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0C0B8A9207A0D5400379213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0C0B8AA207A0D5400379213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0C0B8AC207A0D5400379213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B54A8E0B51C06CFB6A4B1D /* Pods-GuoMeiMall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2N8A4ABC3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/hjun/Desktop/GuoMeiMall/GuoMeiMall/GuoMeiMall/PrefixHeader.pch;
+				INFOPLIST_FILE = GuoMeiMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl-ele.GuoMeiMall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0C0B8AD207A0D5400379213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8F9D0277B317D467E313DB /* Pods-GuoMeiMall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A2N8A4ABC3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/hjun/Desktop/GuoMeiMall/GuoMeiMall/GuoMeiMall/PrefixHeader.pch;
+				INFOPLIST_FILE = GuoMeiMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl-ele.GuoMeiMall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0C0B8AF207A0D5400379213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = GuoMeiMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl-ele.GuoMeiMallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuoMeiMall.app/GuoMeiMall";
+			};
+			name = Debug;
+		};
+		F0C0B8B0207A0D5400379213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = GuoMeiMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl-ele.GuoMeiMallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuoMeiMall.app/GuoMeiMall";
+			};
+			name = Release;
+		};
+		F0C0B8B2207A0D5400379213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = GuoMeiMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl-ele.GuoMeiMallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuoMeiMall;
+			};
+			name = Debug;
+		};
+		F0C0B8B3207A0D5400379213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBB52YGJ4B;
+				INFOPLIST_FILE = GuoMeiMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl-ele.GuoMeiMallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuoMeiMall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0C0B87A207A0D5400379213 /* Build configuration list for PBXProject "GuoMeiMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C0B8A9207A0D5400379213 /* Debug */,
+				F0C0B8AA207A0D5400379213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C0B8AB207A0D5400379213 /* Build configuration list for PBXNativeTarget "GuoMeiMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C0B8AC207A0D5400379213 /* Debug */,
+				F0C0B8AD207A0D5400379213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C0B8AE207A0D5400379213 /* Build configuration list for PBXNativeTarget "GuoMeiMallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C0B8AF207A0D5400379213 /* Debug */,
+				F0C0B8B0207A0D5400379213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0C0B8B1207A0D5400379213 /* Build configuration list for PBXNativeTarget "GuoMeiMallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0C0B8B2207A0D5400379213 /* Debug */,
+				F0C0B8B3207A0D5400379213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0C0B877207A0D5400379213 /* Project object */;
+}
