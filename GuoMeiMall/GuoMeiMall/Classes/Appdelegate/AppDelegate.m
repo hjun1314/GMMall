@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "GMTabController.h"
+#import "GMAppVersion.h"
+#import "GMNewFeatureController.h"
 @interface AppDelegate ()
 
 @end
@@ -24,7 +26,20 @@
     return YES;
 }
 - (void)setupRootVC{
-    self.window.rootViewController = [[GMTabController alloc]init];
+    if ([BUNDLE_VERSION isEqualToString:[GMAppVersion GM_GetLastOneAppVersion]]) {
+        self.window.rootViewController = [[GMTabController alloc]init];
+    }else{
+        [GMAppVersion GM_SaveNewAppVersion:BUNDLE_VERSION];
+        GMNewFeatureController *featureVC = [[GMNewFeatureController alloc]init];
+        [featureVC setUpFeatureAttribute:^(NSArray *__autoreleasing *imageArray, UIColor *__autoreleasing *selColor, BOOL *showSkip, BOOL *showPageCount) {
+            *imageArray = @[@"guide1",@"guide2",@"guide3",@"guide4"];
+            *showPageCount = YES;
+            *showSkip = YES;
+            
+        }];
+        self.window.rootViewController = featureVC;
+    }
+    
 }
 #pragma mark- 适配iOS 11
 - (void)setupFixiOS11{
