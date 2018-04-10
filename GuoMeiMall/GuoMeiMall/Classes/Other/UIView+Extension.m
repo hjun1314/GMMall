@@ -99,4 +99,29 @@
 {
     return self.frame.origin;
 }
+- (CGFloat)right{
+    
+    return CGRectGetMaxX(self.frame);
+}
+
+- (CGFloat)bottom{
+    
+    return CGRectGetMaxY(self.frame);
+}
+
+- (void)setRight:(CGFloat)right{
+    
+    self.x = right - self.width;
+}
+
+- (void)setBottom:(CGFloat)bottom{
+    
+    self.y = bottom - self.height;
+}
++ (instancetype)addViewFromXib{
+     return [[NSBundle mainBundle]loadNibNamed:NSStringFromClass(self) owner:nil options:nil].firstObject;
+}
+
+
+
 @end

@@ -10,5 +10,9 @@
 #define CommonUtil_h
 #import "MacroDefine.h"
 #import "UIView+Extension.h"
-
+#import <Masonry.h>
+#import "DCSpeedy.h" //便捷方法
+#import "DCObjManager.h"  //存取
+#import "GMNotificationName.h"
+#import "GMConsts.h"
 #endif /* CommonUtil_h */

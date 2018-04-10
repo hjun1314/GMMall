@@ -20,12 +20,26 @@
 		F078F01C207B4C77005F8B30 /* GMNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F01B207B4C77005F8B30 /* GMNewFeatureController.m */; };
 		F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F01E207B4CB7005F8B30 /* GMNewFeatureCell.m */; };
 		F078F023207B5A48005F8B30 /* GMAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F022207B5A48005F8B30 /* GMAppVersion.m */; };
+		F078F029207B67A4005F8B30 /* GMLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F027207B67A4005F8B30 /* GMLoginController.m */; };
+		F078F02A207B67A4005F8B30 /* GMLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078F028207B67A4005F8B30 /* GMLoginController.xib */; };
+		F078F02D207B6C62005F8B30 /* GMAccountPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F02C207B6C62005F8B30 /* GMAccountPwdView.m */; };
+		F078F02F207B6C83005F8B30 /* GMAccountPwdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078F02E207B6C83005F8B30 /* GMAccountPwdView.xib */; };
+		F078F032207B6CAD005F8B30 /* GMPhoneRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F031207B6CAD005F8B30 /* GMPhoneRegistView.m */; };
+		F078F034207B6CB9005F8B30 /* GMPhoneRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078F033207B6CB9005F8B30 /* GMPhoneRegistView.xib */; };
 		F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B883207A0D5400379213 /* AppDelegate.m */; };
 		F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C0B88B207A0D5400379213 /* Assets.xcassets */; };
 		F0C0B88F207A0D5400379213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C0B88D207A0D5400379213 /* LaunchScreen.storyboard */; };
 		F0C0B892207A0D5400379213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B891207A0D5400379213 /* main.m */; };
 		F0C0B89C207A0D5400379213 /* GuoMeiMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B89B207A0D5400379213 /* GuoMeiMallTests.m */; };
 		F0C0B8A7207A0D5400379213 /* GuoMeiMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B8A6207A0D5400379213 /* GuoMeiMallUITests.m */; };
+		F0C58925207C4F1500CE448F /* DCSpeedy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C58919207C4F1500CE448F /* DCSpeedy.m */; };
+		F0C58926207C4F1500CE448F /* DCCheckRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5891B207C4F1500CE448F /* DCCheckRegular.m */; };
+		F0C58927207C4F1500CE448F /* DCObjManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5891C207C4F1500CE448F /* DCObjManager.m */; };
+		F0C58928207C4F1500CE448F /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5891D207C4F1500CE448F /* Foundation+Log.m */; };
+		F0C58929207C4F1500CE448F /* DCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5891E207C4F1500CE448F /* DCPlaceholderTextView.m */; };
+		F0C5892E207C679200CE448F /* GMConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5892D207C679200CE448F /* GMConsts.m */; };
+		F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C58930207C67AC00CE448F /* GMNotificationName.m */; };
+		F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C58935207C691A00CE448F /* UIView+Toast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +90,15 @@
 		F078F01E207B4CB7005F8B30 /* GMNewFeatureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNewFeatureCell.m; sourceTree = "<group>"; };
 		F078F021207B5A48005F8B30 /* GMAppVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAppVersion.h; sourceTree = "<group>"; };
 		F078F022207B5A48005F8B30 /* GMAppVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAppVersion.m; sourceTree = "<group>"; };
+		F078F026207B67A4005F8B30 /* GMLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMLoginController.h; sourceTree = "<group>"; };
+		F078F027207B67A4005F8B30 /* GMLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLoginController.m; sourceTree = "<group>"; };
+		F078F028207B67A4005F8B30 /* GMLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMLoginController.xib; sourceTree = "<group>"; };
+		F078F02B207B6C62005F8B30 /* GMAccountPwdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAccountPwdView.h; sourceTree = "<group>"; };
+		F078F02C207B6C62005F8B30 /* GMAccountPwdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAccountPwdView.m; sourceTree = "<group>"; };
+		F078F02E207B6C83005F8B30 /* GMAccountPwdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMAccountPwdView.xib; sourceTree = "<group>"; };
+		F078F030207B6CAD005F8B30 /* GMPhoneRegistView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMPhoneRegistView.h; sourceTree = "<group>"; };
+		F078F031207B6CAD005F8B30 /* GMPhoneRegistView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMPhoneRegistView.m; sourceTree = "<group>"; };
+		F078F033207B6CB9005F8B30 /* GMPhoneRegistView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMPhoneRegistView.xib; sourceTree = "<group>"; };
 		F0C0B87F207A0D5400379213 /* GuoMeiMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuoMeiMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C0B882207A0D5400379213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0C0B883207A0D5400379213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +112,21 @@
 		F0C0B8A2207A0D5400379213 /* GuoMeiMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuoMeiMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C0B8A6207A0D5400379213 /* GuoMeiMallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuoMeiMallUITests.m; sourceTree = "<group>"; };
 		F0C0B8A8207A0D5400379213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C58918207C4F1500CE448F /* DCPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPlaceholderTextView.h; sourceTree = "<group>"; };
+		F0C58919207C4F1500CE448F /* DCSpeedy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCSpeedy.m; sourceTree = "<group>"; };
+		F0C5891B207C4F1500CE448F /* DCCheckRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCheckRegular.m; sourceTree = "<group>"; };
+		F0C5891C207C4F1500CE448F /* DCObjManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCObjManager.m; sourceTree = "<group>"; };
+		F0C5891D207C4F1500CE448F /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		F0C5891E207C4F1500CE448F /* DCPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPlaceholderTextView.m; sourceTree = "<group>"; };
+		F0C58921207C4F1500CE448F /* DCSpeedy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSpeedy.h; sourceTree = "<group>"; };
+		F0C58922207C4F1500CE448F /* DCObjManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCObjManager.h; sourceTree = "<group>"; };
+		F0C58923207C4F1500CE448F /* DCCheckRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCheckRegular.h; sourceTree = "<group>"; };
+		F0C5892C207C679200CE448F /* GMConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMConsts.h; sourceTree = "<group>"; };
+		F0C5892D207C679200CE448F /* GMConsts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMConsts.m; sourceTree = "<group>"; };
+		F0C5892F207C67AC00CE448F /* GMNotificationName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNotificationName.h; sourceTree = "<group>"; };
+		F0C58930207C67AC00CE448F /* GMNotificationName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNotificationName.m; sourceTree = "<group>"; };
+		F0C58934207C691A00CE448F /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		F0C58935207C691A00CE448F /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +358,29 @@
 			path = APPVersion;
 			sourceTree = "<group>";
 		};
+		F078F024207B64D4005F8B30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F078F02B207B6C62005F8B30 /* GMAccountPwdView.h */,
+				F078F02C207B6C62005F8B30 /* GMAccountPwdView.m */,
+				F078F02E207B6C83005F8B30 /* GMAccountPwdView.xib */,
+				F078F030207B6CAD005F8B30 /* GMPhoneRegistView.h */,
+				F078F031207B6CAD005F8B30 /* GMPhoneRegistView.m */,
+				F078F033207B6CB9005F8B30 /* GMPhoneRegistView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F078F025207B64D4005F8B30 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F078F026207B67A4005F8B30 /* GMLoginController.h */,
+				F078F027207B67A4005F8B30 /* GMLoginController.m */,
+				F078F028207B67A4005F8B30 /* GMLoginController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		F0C0B876207A0D5400379213 = {
 			isa = PBXGroup;
 			children = (
@@ -475,6 +536,9 @@
 		F0C0B8BC207A139400379213 /* Expand(扩展) */ = {
 			isa = PBXGroup;
 			children = (
+				F0C58932207C690300CE448F /* Vendors(第三方) */,
+				F0C5892B207C676000CE448F /* Const(常量) */,
+				F0C58916207C4F1500CE448F /* Tools(工具) */,
 			);
 			name = "Expand(扩展)";
 			path = "GuoMeiMall/Classes/Expand(扩展)";
@@ -512,6 +576,8 @@
 		F0C0B8C0207A139500379213 /* Login(登录) */ = {
 			isa = PBXGroup;
 			children = (
+				F078F025207B64D4005F8B30 /* Controller */,
+				F078F024207B64D4005F8B30 /* View */,
 			);
 			name = "Login(登录)";
 			path = "GuoMeiMall/Classes/Login(登录)";
@@ -524,6 +590,50 @@
 			name = "ShoppingCar(购物车)";
 			path = "GuoMeiMall/Classes/ShoppingCar(购物车)";
 			sourceTree = SOURCE_ROOT;
+		};
+		F0C58916207C4F1500CE448F /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				F0C58918207C4F1500CE448F /* DCPlaceholderTextView.h */,
+				F0C5891E207C4F1500CE448F /* DCPlaceholderTextView.m */,
+				F0C58921207C4F1500CE448F /* DCSpeedy.h */,
+				F0C58919207C4F1500CE448F /* DCSpeedy.m */,
+				F0C58923207C4F1500CE448F /* DCCheckRegular.h */,
+				F0C5891B207C4F1500CE448F /* DCCheckRegular.m */,
+				F0C58922207C4F1500CE448F /* DCObjManager.h */,
+				F0C5891C207C4F1500CE448F /* DCObjManager.m */,
+				F0C5891D207C4F1500CE448F /* Foundation+Log.m */,
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		F0C5892B207C676000CE448F /* Const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+				F0C5892C207C679200CE448F /* GMConsts.h */,
+				F0C5892D207C679200CE448F /* GMConsts.m */,
+				F0C5892F207C67AC00CE448F /* GMNotificationName.h */,
+				F0C58930207C67AC00CE448F /* GMNotificationName.m */,
+			);
+			path = "Const(常量)";
+			sourceTree = "<group>";
+		};
+		F0C58932207C690300CE448F /* Vendors(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+				F0C58933207C691A00CE448F /* ToastView */,
+			);
+			path = "Vendors(第三方)";
+			sourceTree = "<group>";
+		};
+		F0C58933207C691A00CE448F /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				F0C58934207C691A00CE448F /* UIView+Toast.h */,
+				F0C58935207C691A00CE448F /* UIView+Toast.m */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -635,7 +745,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F078F02F207B6C83005F8B30 /* GMAccountPwdView.xib in Resources */,
+				F078F034207B6CB9005F8B30 /* GMPhoneRegistView.xib in Resources */,
 				F0C0B88F207A0D5400379213 /* LaunchScreen.storyboard in Resources */,
+				F078F02A207B67A4005F8B30 /* GMLoginController.xib in Resources */,
 				F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -681,9 +794,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GuoMeiMall/Pods-GuoMeiMall-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -715,17 +831,28 @@
 				F078F00B207B3951005F8B30 /* GMMyCenterController.m in Sources */,
 				F078F01C207B4C77005F8B30 /* GMNewFeatureController.m in Sources */,
 				F078F023207B5A48005F8B30 /* GMAppVersion.m in Sources */,
+				F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */,
 				F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */,
+				F078F02D207B6C62005F8B30 /* GMAccountPwdView.m in Sources */,
+				F0C58928207C4F1500CE448F /* Foundation+Log.m in Sources */,
 				F078F017207B3BE3005F8B30 /* GMHomeController.m in Sources */,
+				F0C58926207C4F1500CE448F /* DCCheckRegular.m in Sources */,
+				F0C58925207C4F1500CE448F /* DCSpeedy.m in Sources */,
 				F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */,
 				F0C0B892207A0D5400379213 /* main.m in Sources */,
 				F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */,
+				F0C5892E207C679200CE448F /* GMConsts.m in Sources */,
+				F078F029207B67A4005F8B30 /* GMLoginController.m in Sources */,
+				F0C58927207C4F1500CE448F /* DCObjManager.m in Sources */,
 				F078F011207B3A44005F8B30 /* GMBeautyShopController.m in Sources */,
+				F0C58929207C4F1500CE448F /* DCPlaceholderTextView.m in Sources */,
 				F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */,
 				F078F008207B36AE005F8B30 /* GMBaseController.m in Sources */,
+				F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */,
 				F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */,
 				F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */,
 				F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */,
+				F078F032207B6CAD005F8B30 /* GMPhoneRegistView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

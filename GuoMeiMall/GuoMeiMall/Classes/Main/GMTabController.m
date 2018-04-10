@@ -8,6 +8,7 @@
 
 #import "GMTabController.h"
 #import "GMNavController.h"
+#import "GMLoginController.h"
 /******************    TabBar          *************/
 #define MallClassKey   @"rootVCClassString"
 #define MallTitleKey   @"title"
@@ -77,6 +78,15 @@
     }];
 }
 #pragma mark- tabbarDelegate
+- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
+    if (viewController == [tabBarController.viewControllers objectAtIndex:GMTabControllerPerson]) {
+        GMLoginController *loginVC = [GMLoginController new];
+        [self presentViewController:loginVC animated:YES completion:nil];
+        return NO;
+    }
+    return YES;
+}
+
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
     [self tabbarButtonClick:[self getTabBarButton]];
 }

@@ -7,7 +7,7 @@
 //
 
 #import "GMMyCenterController.h"
-
+#import "GMLoginController.h"
 @interface GMMyCenterController ()
 
 @end

@@ -11,4 +11,8 @@
 @property (nonatomic, assign) CGFloat height;
 @property (nonatomic, assign) CGSize size;
 @property (nonatomic, assign) CGPoint origin;
+@property (nonatomic , assign) CGFloat right;
+@property (nonatomic , assign) CGFloat bottom;
++ (instancetype)addViewFromXib;
+
 @end
