@@ -7,8 +7,10 @@
 //
 
 #import "GMAccountPwdView.h"
+///vendors
 #import <SVProgressHUD/SVProgressHUD.h>
 #import "UIView+Toast.h"
+///controllers
 #import "GMMediaListController.h"
 #import "GMBeautyMessageController.h"
 #import "GMHomeController.h"
@@ -80,7 +82,7 @@
         _loginBtn.enabled = NO;
         _loginBtn.backgroundColor = [UIColor lightGrayColor];
     }
-    DLog(@"ddd");
+  
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self endEditing:YES];

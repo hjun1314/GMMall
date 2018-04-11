@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F0DFA835BCCC584E85ACA5D /* libPods-GuoMeiMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF614560F9288B6D83DBC78 /* libPods-GuoMeiMall.a */; };
+		F031772E207DE6050064E4F2 /* GMMyCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F031772D207DE6050064E4F2 /* GMMyCenterHeadView.m */; };
+		F0317730207DE6230064E4F2 /* GMMyCenterHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F031772F207DE6230064E4F2 /* GMMyCenterHeadView.xib */; };
+		F0317733207DF3800064E4F2 /* GMMyCenterTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0317732207DF3800064E4F2 /* GMMyCenterTopView.m */; };
 		F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */; };
 		F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFEE207B1077005F8B30 /* GMNavController.m */; };
 		F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFF1207B1739005F8B30 /* GMTabController.m */; };
@@ -63,6 +66,11 @@
 		2D8F9D0277B317D467E313DB /* Pods-GuoMeiMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuoMeiMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuoMeiMall/Pods-GuoMeiMall.release.xcconfig"; sourceTree = "<group>"; };
 		B7B54A8E0B51C06CFB6A4B1D /* Pods-GuoMeiMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuoMeiMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuoMeiMall/Pods-GuoMeiMall.debug.xcconfig"; sourceTree = "<group>"; };
 		EFF614560F9288B6D83DBC78 /* libPods-GuoMeiMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GuoMeiMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F031772C207DE6050064E4F2 /* GMMyCenterHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMyCenterHeadView.h; sourceTree = "<group>"; };
+		F031772D207DE6050064E4F2 /* GMMyCenterHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMyCenterHeadView.m; sourceTree = "<group>"; };
+		F031772F207DE6230064E4F2 /* GMMyCenterHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMMyCenterHeadView.xib; sourceTree = "<group>"; };
+		F0317731207DF3800064E4F2 /* GMMyCenterTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMyCenterTopView.h; sourceTree = "<group>"; };
+		F0317732207DF3800064E4F2 /* GMMyCenterTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMyCenterTopView.m; sourceTree = "<group>"; };
 		F078EFE7207AFFC5005F8B30 /* MacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
 		F078EFE8207AFFC5005F8B30 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
@@ -175,6 +183,11 @@
 		F0317726207DDE7E0064E4F2 /* CustormView */ = {
 			isa = PBXGroup;
 			children = (
+				F0317731207DF3800064E4F2 /* GMMyCenterTopView.h */,
+				F0317732207DF3800064E4F2 /* GMMyCenterTopView.m */,
+				F031772C207DE6050064E4F2 /* GMMyCenterHeadView.h */,
+				F031772D207DE6050064E4F2 /* GMMyCenterHeadView.m */,
+				F031772F207DE6230064E4F2 /* GMMyCenterHeadView.xib */,
 			);
 			path = CustormView;
 			sourceTree = "<group>";
@@ -198,6 +211,10 @@
 		F0317729207DDE7E0064E4F2 /* SubCell */ = {
 			isa = PBXGroup;
 			children = (
+				F0317735207E11710064E4F2 /* FirstSection */,
+				F0317734207E11710064E4F2 /* FourSection */,
+				F0317737207E11710064E4F2 /* SecondSection */,
+				F0317736207E11710064E4F2 /* ThirdSection */,
 			);
 			path = SubCell;
 			sourceTree = "<group>";
@@ -216,6 +233,34 @@
 				F078F00A207B3951005F8B30 /* GMMyCenterController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		F0317734207E11710064E4F2 /* FourSection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FourSection;
+			sourceTree = "<group>";
+		};
+		F0317735207E11710064E4F2 /* FirstSection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FirstSection;
+			sourceTree = "<group>";
+		};
+		F0317736207E11710064E4F2 /* ThirdSection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdSection;
+			sourceTree = "<group>";
+		};
+		F0317737207E11710064E4F2 /* SecondSection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondSection;
 			sourceTree = "<group>";
 		};
 		F078EFE6207AFFA3005F8B30 /* Other */ = {
@@ -814,6 +859,7 @@
 				F0C0B88F207A0D5400379213 /* LaunchScreen.storyboard in Resources */,
 				F078F02A207B67A4005F8B30 /* GMLoginController.xib in Resources */,
 				F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */,
+				F0317730207DE6230064E4F2 /* GMMyCenterHeadView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,8 +943,10 @@
 				F078F023207B5A48005F8B30 /* GMAppVersion.m in Sources */,
 				F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */,
 				F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */,
+				F031772E207DE6050064E4F2 /* GMMyCenterHeadView.m in Sources */,
 				F078F02D207B6C62005F8B30 /* GMAccountPwdView.m in Sources */,
 				F0C58928207C4F1500CE448F /* Foundation+Log.m in Sources */,
+				F0317733207DF3800064E4F2 /* GMMyCenterTopView.m in Sources */,
 				F078F017207B3BE3005F8B30 /* GMHomeController.m in Sources */,
 				F0C58926207C4F1500CE448F /* DCCheckRegular.m in Sources */,
 				F0C58925207C4F1500CE448F /* DCSpeedy.m in Sources */,
