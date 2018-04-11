@@ -172,6 +172,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F0317726207DDE7E0064E4F2 /* CustormView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustormView;
+			sourceTree = "<group>";
+		};
+		F0317727207DDE7E0064E4F2 /* TabelViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F0317728207DDE7E0064E4F2 /* MainCell */,
+				F0317729207DDE7E0064E4F2 /* SubCell */,
+			);
+			path = TabelViewCell;
+			sourceTree = "<group>";
+		};
+		F0317728207DDE7E0064E4F2 /* MainCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainCell;
+			sourceTree = "<group>";
+		};
+		F0317729207DDE7E0064E4F2 /* SubCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubCell;
+			sourceTree = "<group>";
+		};
+		F031772A207DDEB20064E4F2 /* SubController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SubController;
+			sourceTree = "<group>";
+		};
+		F031772B207DDEB20064E4F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F078F009207B3951005F8B30 /* GMMyCenterController.h */,
+				F078F00A207B3951005F8B30 /* GMMyCenterController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		F078EFE6207AFFA3005F8B30 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,9 +256,8 @@
 		F078EFF6207B3580005F8B30 /* MyCenter(个人中心) */ = {
 			isa = PBXGroup;
 			children = (
-				F078EFF7207B3580005F8B30 /* Controller */,
-				F078EFF8207B3580005F8B30 /* Model */,
-				F078EFF9207B3580005F8B30 /* View */,
+				F090F8E6207DAFB900546EB6 /* Setting */,
+				F090F8E5207DAFA800546EB6 /* Main */,
 			);
 			name = "MyCenter(个人中心)";
 			path = "GuoMeiMall/Classes/MyCenter(个人中心)";
@@ -221,8 +266,8 @@
 		F078EFF7207B3580005F8B30 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F078F009207B3951005F8B30 /* GMMyCenterController.h */,
-				F078F00A207B3951005F8B30 /* GMMyCenterController.m */,
+				F031772B207DDEB20064E4F2 /* Main */,
+				F031772A207DDEB20064E4F2 /* SubController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,6 +282,8 @@
 		F078EFF9207B3580005F8B30 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F0317726207DDE7E0064E4F2 /* CustormView */,
+				F0317727207DDE7E0064E4F2 /* TabelViewCell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -379,6 +426,23 @@
 				F078F028207B67A4005F8B30 /* GMLoginController.xib */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		F090F8E5207DAFA800546EB6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFF7207B3580005F8B30 /* Controller */,
+				F078EFF8207B3580005F8B30 /* Model */,
+				F078EFF9207B3580005F8B30 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F090F8E6207DAFB900546EB6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		F0C0B876207A0D5400379213 = {

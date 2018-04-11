@@ -29,8 +29,8 @@
 - (void)setBaseUI{
     _loginBtn.enabled = NO;
     _loginBtn.backgroundColor = [UIColor lightGrayColor];
-    [_PhoneNum addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventValueChanged];
-    [_Password addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventValueChanged];
+    [_PhoneNum addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventEditingChanged];
+    [_Password addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventEditingChanged];
     _PhoneNum.text = ([DCObjManager dc_readUserDataForKey:@"UserName"] == nil) ? nil :[DCObjManager dc_readUserDataForKey:@"UserName"];
     ///服务协议改变颜色
     [DCSpeedy dc_setSomeOneChangeColor:_agreeLabel SetSelectArray:@[@"《",@"》",@"服",@"务",@"协",@"议"] SetChangeColor:RGB(56, 152, 181)];
@@ -69,6 +69,7 @@
         });
         
     }
+
 }
 #pragma mark - <UITextFieldDelegate>
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
@@ -79,7 +80,7 @@
         _loginBtn.enabled = NO;
         _loginBtn.backgroundColor = [UIColor lightGrayColor];
     }
-    
+    DLog(@"ddd");
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self endEditing:YES];

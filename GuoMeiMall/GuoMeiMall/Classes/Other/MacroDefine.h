@@ -183,8 +183,8 @@ return _instance;\
 //----------------------单例（分开）----------------------------
 
 //----------------------强引用、弱引用----------------------------
-#define kWeakSelf(type)  __weak typeof(type) weak##type = type;
-#define kStrongSelf(type)  __strong typeof(type) type = weak##type;
+#define kWeakSelf(type)  __weak typeof(type) weak##type = type
+#define kStrongSelf(type)  __strong typeof(type) type = weak##type
 //----------------------强引用、弱引用----------------------------
 
 //----------------------view圆角和边框---------------------------

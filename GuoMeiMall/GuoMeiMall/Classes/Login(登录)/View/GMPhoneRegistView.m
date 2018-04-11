@@ -22,8 +22,8 @@
 - (void)setupBaseUI{
     _loginBtn.enabled = _verificationBtn.enabled = NO;
     _loginBtn.backgroundColor = _verificationBtn.backgroundColor = [UIColor lightGrayColor];
-    [_userNameTextField addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventValueChanged];
-    [_verificationTextField addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventValueChanged];
+    [_userNameTextField addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventEditingChanged];
+    [_verificationTextField addTarget:self action:@selector(textFieldDidBeginEditing:) forControlEvents:UIControlEventEditingChanged];
     [DCSpeedy dc_setSomeOneChangeColor:_agreeLabel SetSelectArray:@[@"《",@"》",@"服",@"务",@"协",@"议"] SetChangeColor:RGB(56, 152, 181)];
 }
 #pragma mark- uitextFieldDelegate
