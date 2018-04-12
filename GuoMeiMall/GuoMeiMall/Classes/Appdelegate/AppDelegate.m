@@ -21,6 +21,8 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self setupRootVC];
     [self setupFixiOS11];
+NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+
     [self.window makeKeyAndVisible];
     
     return YES;
@@ -40,6 +42,8 @@
         self.window.rootViewController = featureVC;
     }
     
+}
+void uncaughtExceptionHandler(NSException *exception) {    DLog(@"错误原因: %@", exception);
 }
 #pragma mark- 适配iOS 11
 - (void)setupFixiOS11{

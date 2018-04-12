@@ -16,6 +16,8 @@
 #import "GMMyCenterTopView.h"//顶部topView
 #import "GMCenterItemCell.h"//firstSection
 #import "GMCenterServiceCell.h"//secondSection
+#import "GMCenterShopCell.h"//thirdSection
+#import "GMCenterBackCell.h"//fourthSection
 //vendors
 #import <MJExtension.h>
 @interface GMMyCenterController ()<UITableViewDelegate,UITableViewDataSource>
@@ -36,6 +38,8 @@
 @end
 static NSString *const GMCenterItemCellID = @"GMCenterItemCellID";
 static NSString *const GMCenterServiceCellID = @"CenterServiceCellID";
+static NSString *const GMCenterShopCellID = @"GMCenterShopCellID";
+static NSString *const GMCenterBackCellID = @"GMCenterBackCellID";
 @implementation GMMyCenterController
 
 - (void)viewDidLoad {
@@ -64,7 +68,8 @@ static NSString *const GMCenterServiceCellID = @"CenterServiceCellID";
         
         [_tableView registerClass:[GMCenterItemCell class] forCellReuseIdentifier:GMCenterItemCellID];
         [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([GMCenterServiceCell class]) bundle:nil] forCellReuseIdentifier:GMCenterServiceCellID];
-        
+        [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([GMCenterShopCell class]) bundle:nil] forCellReuseIdentifier:GMCenterShopCellID];
+        [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([GMCenterBackCell class]) bundle:nil] forCellReuseIdentifier:GMCenterBackCellID];
     }
     return _tableView;
 }
@@ -139,6 +144,12 @@ static NSString *const GMCenterServiceCellID = @"CenterServiceCellID";
     }else if (indexPath.section == 1){
         GMCenterServiceCell *cell = [tableView dequeueReusableCellWithIdentifier:GMCenterServiceCellID forIndexPath:indexPath];
         cell.goodsGridArray = [NSMutableArray arrayWithArray:_goodsGrid];
+        customCell = cell;
+    }else if (indexPath.section == 2){
+        GMCenterShopCell *cell = [tableView dequeueReusableCellWithIdentifier:GMCenterShopCellID forIndexPath:indexPath];
+        customCell = cell;
+    }else if (indexPath.section == 3){
+        GMCenterBackCell *cell = [tableView dequeueReusableCellWithIdentifier:GMCenterBackCellID forIndexPath:indexPath];
         customCell = cell;
     }
     return customCell;
