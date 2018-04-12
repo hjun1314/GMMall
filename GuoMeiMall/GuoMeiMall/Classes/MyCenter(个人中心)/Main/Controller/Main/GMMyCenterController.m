@@ -9,9 +9,15 @@
 #import "GMMyCenterController.h"
 #import "GMLoginController.h"
 //models
+#import "GMGoodsGridModel.h"
+#import "GMStateItem.h"
 //views
 #import "GMMyCenterHeadView.h"//顶部headView
 #import "GMMyCenterTopView.h"//顶部topView
+#import "GMCenterItemCell.h"//firstSection
+#import "GMCenterServiceCell.h"//secondSection
+//vendors
+#import <MJExtension.h>
 @interface GMMyCenterController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,strong)UITableView *tableView;
@@ -21,18 +27,23 @@
 @property (nonatomic,strong)UIImageView *headBGImageView;
 /****顶部导航栏item*****/
 @property (nonatomic,strong)GMMyCenterTopView *topView;
+/****四个cell的模型数据****/
+@property (nonatomic,strong)NSMutableArray <GMStateItem *> *stateItem;
+@property (nonatomic,strong)NSMutableArray <GMGoodsGridModel*> *goodsGrid;
+
 
 
 @end
-
+static NSString *const GMCenterItemCellID = @"GMCenterItemCellID";
+static NSString *const GMCenterServiceCellID = @"CenterServiceCellID";
 @implementation GMMyCenterController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.backgroundColor = RGB(245, 245, 245);
+    [self loadData];
     [self setupTopView];
     [self setupHeadView];
-
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
@@ -50,6 +61,9 @@
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.showsVerticalScrollIndicator = NO;
         [self.view addSubview:_tableView];
+        
+        [_tableView registerClass:[GMCenterItemCell class] forCellReuseIdentifier:GMCenterItemCellID];
+        [_tableView registerNib:[UINib nibWithNibName:NSStringFromClass([GMCenterServiceCell class]) bundle:nil] forCellReuseIdentifier:GMCenterServiceCellID];
         
     }
     return _tableView;
@@ -70,6 +84,23 @@
         _headView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 200);
     }
     return _headView;
+}
+- (NSMutableArray<GMStateItem *> *)stateItem{
+    if (_stateItem == nil) {
+        _stateItem = [NSMutableArray array];
+    }
+    return _stateItem;
+}
+- (NSMutableArray<GMGoodsGridModel *> *)goodsGrid{
+    if (_goodsGrid == nil) {
+        _goodsGrid = [NSMutableArray array];
+    }
+    return _goodsGrid;
+}
+#pragma mark- 加载数据
+- (void)loadData{
+    _stateItem = [GMStateItem mj_objectArrayWithFilename:@"MyCenterFlow.plist"];
+    _goodsGrid = [GMGoodsGridModel mj_objectArrayWithFilename:@"MyServiceFlow.plist"];
 }
 #pragma mark- 初始化headView
 - (void)setupHeadView{
@@ -100,13 +131,30 @@
     return 1;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    static NSString *ID = @"CELL";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    UITableViewCell *customCell = [UITableViewCell new];
+    if (indexPath.section == 0) {
+        GMCenterItemCell * cell= [tableView dequeueReusableCellWithIdentifier:GMCenterItemCellID forIndexPath:indexPath];
+        cell.stateItem = [NSMutableArray arrayWithArray:_stateItem];
+        customCell = cell;
+    }else if (indexPath.section == 1){
+        GMCenterServiceCell *cell = [tableView dequeueReusableCellWithIdentifier:GMCenterServiceCellID forIndexPath:indexPath];
+        cell.goodsGridArray = [NSMutableArray arrayWithArray:_goodsGrid];
+        customCell = cell;
     }
-    cell.textLabel.text = @"哈根达斯";
-    return cell;
+    return customCell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+        return 188;
+    }else if (indexPath.section == 1){
+        return 213;
+    }else if (indexPath.section == 2){
+        return 288;
+    }else if (indexPath.section == 3){
+        return 200;
+    }
+    return 0;
 }
 //下拉滚动图片
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{

@@ -11,6 +11,45 @@
 		F031772E207DE6050064E4F2 /* GMMyCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F031772D207DE6050064E4F2 /* GMMyCenterHeadView.m */; };
 		F0317730207DE6230064E4F2 /* GMMyCenterHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F031772F207DE6230064E4F2 /* GMMyCenterHeadView.xib */; };
 		F0317733207DF3800064E4F2 /* GMMyCenterTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0317732207DF3800064E4F2 /* GMMyCenterTopView.m */; };
+		F0318A24207EF22B00825887 /* GMMyCenterBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318A23207EF22B00825887 /* GMMyCenterBtn.m */; };
+		F0318A27207EF3A900825887 /* GMShareBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318A26207EF3A900825887 /* GMShareBtn.m */; };
+		F0318A2A207EFB8500825887 /* GMCenterItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318A29207EFB8500825887 /* GMCenterItemCell.m */; };
+		F0318A51207F01E200825887 /* GMStateItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318A4F207F01E200825887 /* GMStateItemCell.m */; };
+		F0318A52207F01E200825887 /* GMStateItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0318A50207F01E200825887 /* GMStateItemCell.xib */; };
+		F0318A55207F030F00825887 /* GMStateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318A54207F030F00825887 /* GMStateItem.m */; };
+		F0318A79207F160D00825887 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0318A57207F160D00825887 /* loading.gif */; };
+		F0318A7A207F160D00825887 /* loading2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0318A58207F160D00825887 /* loading2.gif */; };
+		F0318A7B207F160D00825887 /* T1cdxgB5_T1RCvBVdK.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0318A59207F160D00825887 /* T1cdxgB5_T1RCvBVdK.gif */; };
+		F0318A7C207F160D00825887 /* moveupAndDown@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0318A5A207F160D00825887 /* moveupAndDown@2x.gif */; };
+		F0318A7D207F160D00825887 /* shareTerrace.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A5D207F160D00825887 /* shareTerrace.plist */; };
+		F0318A7E207F160D00825887 /* ClassifyTitles.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A5E207F160D00825887 /* ClassifyTitles.plist */; };
+		F0318A7F207F160D00825887 /* DetailRecommend.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A5F207F160D00825887 /* DetailRecommend.plist */; };
+		F0318A80207F160D00825887 /* ClassiftyGoods03.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A60207F160D00825887 /* ClassiftyGoods03.plist */; };
+		F0318A81207F160D00825887 /* ClasiftyGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A61207F160D00825887 /* ClasiftyGoods.plist */; };
+		F0318A82207F160D00825887 /* ClassiftyGoods01.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A62207F160D00825887 /* ClassiftyGoods01.plist */; };
+		F0318A83207F160D00825887 /* ClassiftyGoods02.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A63207F160D00825887 /* ClassiftyGoods02.plist */; };
+		F0318A84207F160D00825887 /* FootprintGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A64207F160D00825887 /* FootprintGoods.plist */; };
+		F0318A85207F160D00825887 /* ShopItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A65207F160D00825887 /* ShopItem.plist */; };
+		F0318A86207F160D00825887 /* FiltrateItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A66207F160D00825887 /* FiltrateItem.plist */; };
+		F0318A87207F160D00825887 /* BeautyShop.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A68207F160D00825887 /* BeautyShop.plist */; };
+		F0318A88207F160D00825887 /* BeautyRecommendShop.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A69207F160D00825887 /* BeautyRecommendShop.plist */; };
+		F0318A89207F160D00825887 /* YouLikeGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A6B207F160D00825887 /* YouLikeGoods.plist */; };
+		F0318A8A207F160D00825887 /* CommentPic.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A6C207F160D00825887 /* CommentPic.plist */; };
+		F0318A8B207F160D00825887 /* MyCenterFlow.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A6D207F160D00825887 /* MyCenterFlow.plist */; };
+		F0318A8C207F160D00825887 /* CommentData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A6E207F160D00825887 /* CommentData.plist */; };
+		F0318A8D207F160D00825887 /* CommentBadData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A6F207F160D00825887 /* CommentBadData.plist */; };
+		F0318A8E207F160D00825887 /* DeliveryAdress.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A70207F160D00825887 /* DeliveryAdress.plist */; };
+		F0318A8F207F160D00825887 /* MessageNote.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A71207F160D00825887 /* MessageNote.plist */; };
+		F0318A90207F160D00825887 /* MyServiceFlow.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A72207F160D00825887 /* MyServiceFlow.plist */; };
+		F0318A91207F160D00825887 /* GoodsGrid.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A74207F160D00825887 /* GoodsGrid.plist */; };
+		F0318A92207F160D00825887 /* HomeHighGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A75207F160D00825887 /* HomeHighGoods.plist */; };
+		F0318A93207F160D00825887 /* CountDownShop.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A76207F160D00825887 /* CountDownShop.plist */; };
+		F0318A94207F160D00825887 /* RecommendShop.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A78207F160D00825887 /* RecommendShop.plist */; };
+		F0318A98207F2C1100825887 /* GMCenterServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318A96207F2C1100825887 /* GMCenterServiceCell.m */; };
+		F0318A99207F2C1100825887 /* GMCenterServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0318A97207F2C1100825887 /* GMCenterServiceCell.xib */; };
+		F0318AA3207F351000825887 /* GMGoodsGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AA2207F351000825887 /* GMGoodsGridCell.m */; };
+		F0318AA6207F352B00825887 /* GMGoodsGridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AA5207F352B00825887 /* GMGoodsGridModel.m */; };
+		F0318AAA207F48FD00825887 /* UIColor+GMColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AA9207F48FD00825887 /* UIColor+GMColorChange.m */; };
 		F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */; };
 		F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFEE207B1077005F8B30 /* GMNavController.m */; };
 		F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFF1207B1739005F8B30 /* GMTabController.m */; };
@@ -71,6 +110,54 @@
 		F031772F207DE6230064E4F2 /* GMMyCenterHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMMyCenterHeadView.xib; sourceTree = "<group>"; };
 		F0317731207DF3800064E4F2 /* GMMyCenterTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMyCenterTopView.h; sourceTree = "<group>"; };
 		F0317732207DF3800064E4F2 /* GMMyCenterTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMyCenterTopView.m; sourceTree = "<group>"; };
+		F0318A22207EF22B00825887 /* GMMyCenterBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMyCenterBtn.h; sourceTree = "<group>"; };
+		F0318A23207EF22B00825887 /* GMMyCenterBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMyCenterBtn.m; sourceTree = "<group>"; };
+		F0318A25207EF3A900825887 /* GMShareBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMShareBtn.h; sourceTree = "<group>"; };
+		F0318A26207EF3A900825887 /* GMShareBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMShareBtn.m; sourceTree = "<group>"; };
+		F0318A28207EFB8500825887 /* GMCenterItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMCenterItemCell.h; sourceTree = "<group>"; };
+		F0318A29207EFB8500825887 /* GMCenterItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMCenterItemCell.m; sourceTree = "<group>"; };
+		F0318A4E207F01E200825887 /* GMStateItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMStateItemCell.h; sourceTree = "<group>"; };
+		F0318A4F207F01E200825887 /* GMStateItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMStateItemCell.m; sourceTree = "<group>"; };
+		F0318A50207F01E200825887 /* GMStateItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMStateItemCell.xib; sourceTree = "<group>"; };
+		F0318A53207F030F00825887 /* GMStateItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMStateItem.h; sourceTree = "<group>"; };
+		F0318A54207F030F00825887 /* GMStateItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMStateItem.m; sourceTree = "<group>"; };
+		F0318A57207F160D00825887 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		F0318A58207F160D00825887 /* loading2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading2.gif; sourceTree = "<group>"; };
+		F0318A59207F160D00825887 /* T1cdxgB5_T1RCvBVdK.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = T1cdxgB5_T1RCvBVdK.gif; sourceTree = "<group>"; };
+		F0318A5A207F160D00825887 /* moveupAndDown@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "moveupAndDown@2x.gif"; sourceTree = "<group>"; };
+		F0318A5D207F160D00825887 /* shareTerrace.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shareTerrace.plist; sourceTree = "<group>"; };
+		F0318A5E207F160D00825887 /* ClassifyTitles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassifyTitles.plist; sourceTree = "<group>"; };
+		F0318A5F207F160D00825887 /* DetailRecommend.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DetailRecommend.plist; sourceTree = "<group>"; };
+		F0318A60207F160D00825887 /* ClassiftyGoods03.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods03.plist; sourceTree = "<group>"; };
+		F0318A61207F160D00825887 /* ClasiftyGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClasiftyGoods.plist; sourceTree = "<group>"; };
+		F0318A62207F160D00825887 /* ClassiftyGoods01.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods01.plist; sourceTree = "<group>"; };
+		F0318A63207F160D00825887 /* ClassiftyGoods02.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassiftyGoods02.plist; sourceTree = "<group>"; };
+		F0318A64207F160D00825887 /* FootprintGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FootprintGoods.plist; sourceTree = "<group>"; };
+		F0318A65207F160D00825887 /* ShopItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShopItem.plist; sourceTree = "<group>"; };
+		F0318A66207F160D00825887 /* FiltrateItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FiltrateItem.plist; sourceTree = "<group>"; };
+		F0318A68207F160D00825887 /* BeautyShop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BeautyShop.plist; sourceTree = "<group>"; };
+		F0318A69207F160D00825887 /* BeautyRecommendShop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BeautyRecommendShop.plist; sourceTree = "<group>"; };
+		F0318A6B207F160D00825887 /* YouLikeGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YouLikeGoods.plist; sourceTree = "<group>"; };
+		F0318A6C207F160D00825887 /* CommentPic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommentPic.plist; sourceTree = "<group>"; };
+		F0318A6D207F160D00825887 /* MyCenterFlow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyCenterFlow.plist; sourceTree = "<group>"; };
+		F0318A6E207F160D00825887 /* CommentData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommentData.plist; sourceTree = "<group>"; };
+		F0318A6F207F160D00825887 /* CommentBadData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CommentBadData.plist; sourceTree = "<group>"; };
+		F0318A70207F160D00825887 /* DeliveryAdress.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DeliveryAdress.plist; sourceTree = "<group>"; };
+		F0318A71207F160D00825887 /* MessageNote.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MessageNote.plist; sourceTree = "<group>"; };
+		F0318A72207F160D00825887 /* MyServiceFlow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyServiceFlow.plist; sourceTree = "<group>"; };
+		F0318A74207F160D00825887 /* GoodsGrid.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GoodsGrid.plist; sourceTree = "<group>"; };
+		F0318A75207F160D00825887 /* HomeHighGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeHighGoods.plist; sourceTree = "<group>"; };
+		F0318A76207F160D00825887 /* CountDownShop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountDownShop.plist; sourceTree = "<group>"; };
+		F0318A78207F160D00825887 /* RecommendShop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RecommendShop.plist; sourceTree = "<group>"; };
+		F0318A95207F2C1100825887 /* GMCenterServiceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMCenterServiceCell.h; sourceTree = "<group>"; };
+		F0318A96207F2C1100825887 /* GMCenterServiceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMCenterServiceCell.m; sourceTree = "<group>"; };
+		F0318A97207F2C1100825887 /* GMCenterServiceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMCenterServiceCell.xib; sourceTree = "<group>"; };
+		F0318AA1207F351000825887 /* GMGoodsGridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMGoodsGridCell.h; sourceTree = "<group>"; };
+		F0318AA2207F351000825887 /* GMGoodsGridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMGoodsGridCell.m; sourceTree = "<group>"; };
+		F0318AA4207F352B00825887 /* GMGoodsGridModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMGoodsGridModel.h; sourceTree = "<group>"; };
+		F0318AA5207F352B00825887 /* GMGoodsGridModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMGoodsGridModel.m; sourceTree = "<group>"; };
+		F0318AA8207F48FD00825887 /* UIColor+GMColorChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+GMColorChange.h"; sourceTree = "<group>"; };
+		F0318AA9207F48FD00825887 /* UIColor+GMColorChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GMColorChange.m"; sourceTree = "<group>"; };
 		F078EFE7207AFFC5005F8B30 /* MacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
 		F078EFE8207AFFC5005F8B30 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
@@ -245,6 +332,11 @@
 		F0317735207E11710064E4F2 /* FirstSection */ = {
 			isa = PBXGroup;
 			children = (
+				F0318A28207EFB8500825887 /* GMCenterItemCell.h */,
+				F0318A29207EFB8500825887 /* GMCenterItemCell.m */,
+				F0318A4E207F01E200825887 /* GMStateItemCell.h */,
+				F0318A4F207F01E200825887 /* GMStateItemCell.m */,
+				F0318A50207F01E200825887 /* GMStateItemCell.xib */,
 			);
 			path = FirstSection;
 			sourceTree = "<group>";
@@ -259,16 +351,154 @@
 		F0317737207E11710064E4F2 /* SecondSection */ = {
 			isa = PBXGroup;
 			children = (
+				F0318A95207F2C1100825887 /* GMCenterServiceCell.h */,
+				F0318A96207F2C1100825887 /* GMCenterServiceCell.m */,
+				F0318A97207F2C1100825887 /* GMCenterServiceCell.xib */,
 			);
 			path = SecondSection;
+			sourceTree = "<group>";
+		};
+		F0318A21207EF1E900825887 /* customBtn */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A22207EF22B00825887 /* GMMyCenterBtn.h */,
+				F0318A23207EF22B00825887 /* GMMyCenterBtn.m */,
+				F0318A25207EF3A900825887 /* GMShareBtn.h */,
+				F0318A26207EF3A900825887 /* GMShareBtn.m */,
+			);
+			path = customBtn;
+			sourceTree = "<group>";
+		};
+		F0318A56207F160D00825887 /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A57207F160D00825887 /* loading.gif */,
+				F0318A58207F160D00825887 /* loading2.gif */,
+				F0318A59207F160D00825887 /* T1cdxgB5_T1RCvBVdK.gif */,
+				F0318A5A207F160D00825887 /* moveupAndDown@2x.gif */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		F0318A5B207F160D00825887 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A5C207F160D00825887 /* 分类Plist */,
+				F0318A67207F160D00825887 /* 美店 */,
+				F0318A6A207F160D00825887 /* 我的Plist */,
+				F0318A73207F160D00825887 /* 首页Plist */,
+				F0318A77207F160D00825887 /* 购物车Plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		F0318A5C207F160D00825887 /* 分类Plist */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A5D207F160D00825887 /* shareTerrace.plist */,
+				F0318A5E207F160D00825887 /* ClassifyTitles.plist */,
+				F0318A5F207F160D00825887 /* DetailRecommend.plist */,
+				F0318A60207F160D00825887 /* ClassiftyGoods03.plist */,
+				F0318A61207F160D00825887 /* ClasiftyGoods.plist */,
+				F0318A62207F160D00825887 /* ClassiftyGoods01.plist */,
+				F0318A63207F160D00825887 /* ClassiftyGoods02.plist */,
+				F0318A64207F160D00825887 /* FootprintGoods.plist */,
+				F0318A65207F160D00825887 /* ShopItem.plist */,
+				F0318A66207F160D00825887 /* FiltrateItem.plist */,
+			);
+			path = "分类Plist";
+			sourceTree = "<group>";
+		};
+		F0318A67207F160D00825887 /* 美店 */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A68207F160D00825887 /* BeautyShop.plist */,
+				F0318A69207F160D00825887 /* BeautyRecommendShop.plist */,
+			);
+			path = "美店";
+			sourceTree = "<group>";
+		};
+		F0318A6A207F160D00825887 /* 我的Plist */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A6B207F160D00825887 /* YouLikeGoods.plist */,
+				F0318A6C207F160D00825887 /* CommentPic.plist */,
+				F0318A6D207F160D00825887 /* MyCenterFlow.plist */,
+				F0318A6E207F160D00825887 /* CommentData.plist */,
+				F0318A6F207F160D00825887 /* CommentBadData.plist */,
+				F0318A70207F160D00825887 /* DeliveryAdress.plist */,
+				F0318A71207F160D00825887 /* MessageNote.plist */,
+				F0318A72207F160D00825887 /* MyServiceFlow.plist */,
+			);
+			path = "我的Plist";
+			sourceTree = "<group>";
+		};
+		F0318A73207F160D00825887 /* 首页Plist */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A74207F160D00825887 /* GoodsGrid.plist */,
+				F0318A75207F160D00825887 /* HomeHighGoods.plist */,
+				F0318A76207F160D00825887 /* CountDownShop.plist */,
+			);
+			path = "首页Plist";
+			sourceTree = "<group>";
+		};
+		F0318A77207F160D00825887 /* 购物车Plist */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A78207F160D00825887 /* RecommendShop.plist */,
+			);
+			path = "购物车Plist";
+			sourceTree = "<group>";
+		};
+		F0318A9D207F348000825887 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F0318A9F207F34B000825887 /* Cell */,
+				F0318AA0207F34B000825887 /* Footer */,
+				F0318A9E207F34B000825887 /* Header */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		F0318A9E207F34B000825887 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F0318A9F207F34B000825887 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F0318AA1207F351000825887 /* GMGoodsGridCell.h */,
+				F0318AA2207F351000825887 /* GMGoodsGridCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F0318AA0207F34B000825887 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		F0318AA7207F48CA00825887 /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				F078EFE8207AFFC5005F8B30 /* UIView+Extension.h */,
+				F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */,
+				F0318AA8207F48FD00825887 /* UIColor+GMColorChange.h */,
+				F0318AA9207F48FD00825887 /* UIColor+GMColorChange.m */,
+			);
+			path = "Category(分类)";
 			sourceTree = "<group>";
 		};
 		F078EFE6207AFFA3005F8B30 /* Other */ = {
 			isa = PBXGroup;
 			children = (
 				F078EFE7207AFFC5005F8B30 /* MacroDefine.h */,
-				F078EFE8207AFFC5005F8B30 /* UIView+Extension.h */,
-				F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */,
 				F078EFEB207B0A05005F8B30 /* CommonUtil.h */,
 			);
 			name = Other;
@@ -320,6 +550,8 @@
 		F078EFF8207B3580005F8B30 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F0318A53207F030F00825887 /* GMStateItem.h */,
+				F0318A54207F030F00825887 /* GMStateItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -389,6 +621,8 @@
 		F078F001207B35A3005F8B30 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F0318AA4207F352B00825887 /* GMGoodsGridModel.h */,
+				F0318AA5207F352B00825887 /* GMGoodsGridModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -396,6 +630,7 @@
 		F078F002207B35A3005F8B30 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F0318A9D207F348000825887 /* CollectionView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -645,6 +880,8 @@
 		F0C0B8BC207A139400379213 /* Expand(扩展) */ = {
 			isa = PBXGroup;
 			children = (
+				F0318AA7207F48CA00825887 /* Category(分类) */,
+				F0318A21207EF1E900825887 /* customBtn */,
 				F0C58932207C690300CE448F /* Vendors(第三方) */,
 				F0C5892B207C676000CE448F /* Const(常量) */,
 				F0C58916207C4F1500CE448F /* Tools(工具) */,
@@ -677,6 +914,8 @@
 		F0C0B8BF207A139500379213 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F0318A56207F160D00825887 /* GIF */,
+				F0318A5B207F160D00825887 /* Plist */,
 			);
 			name = Resource;
 			path = GuoMeiMall/Classes/Resource;
@@ -855,10 +1094,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				F078F02F207B6C83005F8B30 /* GMAccountPwdView.xib in Resources */,
+				F0318A80207F160D00825887 /* ClassiftyGoods03.plist in Resources */,
+				F0318A92207F160D00825887 /* HomeHighGoods.plist in Resources */,
+				F0318A8E207F160D00825887 /* DeliveryAdress.plist in Resources */,
+				F0318A82207F160D00825887 /* ClassiftyGoods01.plist in Resources */,
+				F0318A7A207F160D00825887 /* loading2.gif in Resources */,
+				F0318A8A207F160D00825887 /* CommentPic.plist in Resources */,
+				F0318A8F207F160D00825887 /* MessageNote.plist in Resources */,
 				F078F034207B6CB9005F8B30 /* GMPhoneRegistView.xib in Resources */,
+				F0318A52207F01E200825887 /* GMStateItemCell.xib in Resources */,
+				F0318A99207F2C1100825887 /* GMCenterServiceCell.xib in Resources */,
+				F0318A8C207F160D00825887 /* CommentData.plist in Resources */,
+				F0318A90207F160D00825887 /* MyServiceFlow.plist in Resources */,
+				F0318A91207F160D00825887 /* GoodsGrid.plist in Resources */,
+				F0318A88207F160D00825887 /* BeautyRecommendShop.plist in Resources */,
+				F0318A87207F160D00825887 /* BeautyShop.plist in Resources */,
 				F0C0B88F207A0D5400379213 /* LaunchScreen.storyboard in Resources */,
+				F0318A84207F160D00825887 /* FootprintGoods.plist in Resources */,
 				F078F02A207B67A4005F8B30 /* GMLoginController.xib in Resources */,
+				F0318A7E207F160D00825887 /* ClassifyTitles.plist in Resources */,
+				F0318A8D207F160D00825887 /* CommentBadData.plist in Resources */,
+				F0318A81207F160D00825887 /* ClasiftyGoods.plist in Resources */,
+				F0318A7C207F160D00825887 /* moveupAndDown@2x.gif in Resources */,
+				F0318A7B207F160D00825887 /* T1cdxgB5_T1RCvBVdK.gif in Resources */,
+				F0318A79207F160D00825887 /* loading.gif in Resources */,
+				F0318A7D207F160D00825887 /* shareTerrace.plist in Resources */,
+				F0318A83207F160D00825887 /* ClassiftyGoods02.plist in Resources */,
+				F0318A93207F160D00825887 /* CountDownShop.plist in Resources */,
+				F0318A8B207F160D00825887 /* MyCenterFlow.plist in Resources */,
+				F0318A89207F160D00825887 /* YouLikeGoods.plist in Resources */,
 				F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */,
+				F0318A86207F160D00825887 /* FiltrateItem.plist in Resources */,
+				F0318A85207F160D00825887 /* ShopItem.plist in Resources */,
+				F0318A7F207F160D00825887 /* DetailRecommend.plist in Resources */,
+				F0318A94207F160D00825887 /* RecommendShop.plist in Resources */,
 				F0317730207DE6230064E4F2 /* GMMyCenterHeadView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -905,6 +1174,8 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GuoMeiMall/Pods-GuoMeiMall-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -943,12 +1214,15 @@
 				F078F023207B5A48005F8B30 /* GMAppVersion.m in Sources */,
 				F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */,
 				F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */,
+				F0318A2A207EFB8500825887 /* GMCenterItemCell.m in Sources */,
 				F031772E207DE6050064E4F2 /* GMMyCenterHeadView.m in Sources */,
 				F078F02D207B6C62005F8B30 /* GMAccountPwdView.m in Sources */,
 				F0C58928207C4F1500CE448F /* Foundation+Log.m in Sources */,
+				F0318A98207F2C1100825887 /* GMCenterServiceCell.m in Sources */,
 				F0317733207DF3800064E4F2 /* GMMyCenterTopView.m in Sources */,
 				F078F017207B3BE3005F8B30 /* GMHomeController.m in Sources */,
 				F0C58926207C4F1500CE448F /* DCCheckRegular.m in Sources */,
+				F0318A55207F030F00825887 /* GMStateItem.m in Sources */,
 				F0C58925207C4F1500CE448F /* DCSpeedy.m in Sources */,
 				F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */,
 				F0C0B892207A0D5400379213 /* main.m in Sources */,
@@ -959,9 +1233,15 @@
 				F078F011207B3A44005F8B30 /* GMBeautyShopController.m in Sources */,
 				F0C58929207C4F1500CE448F /* DCPlaceholderTextView.m in Sources */,
 				F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */,
+				F0318AA6207F352B00825887 /* GMGoodsGridModel.m in Sources */,
+				F0318A27207EF3A900825887 /* GMShareBtn.m in Sources */,
+				F0318AA3207F351000825887 /* GMGoodsGridCell.m in Sources */,
+				F0318A24207EF22B00825887 /* GMMyCenterBtn.m in Sources */,
 				F078F008207B36AE005F8B30 /* GMBaseController.m in Sources */,
 				F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */,
 				F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */,
+				F0318AAA207F48FD00825887 /* UIColor+GMColorChange.m in Sources */,
+				F0318A51207F01E200825887 /* GMStateItemCell.m in Sources */,
 				F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */,
 				F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */,
 				F078F032207B6CAD005F8B30 /* GMPhoneRegistView.m in Sources */,

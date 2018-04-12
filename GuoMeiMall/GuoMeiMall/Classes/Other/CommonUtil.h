@@ -15,4 +15,7 @@
 #import "DCObjManager.h"  //存取
 #import "GMNotificationName.h"
 #import "GMConsts.h"
+//分类
+#import "UIColor+GMColorChange.h"
+
 #endif /* CommonUtil_h */
