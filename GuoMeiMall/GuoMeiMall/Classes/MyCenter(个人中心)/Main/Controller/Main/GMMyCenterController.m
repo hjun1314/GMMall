@@ -8,6 +8,8 @@
 //controllers
 #import "GMMyCenterController.h"
 #import "GMLoginController.h"
+#import "GMManagerController.h"
+#import "GMSettingController.h"
 //models
 #import "GMGoodsGridModel.h"
 #import "GMStateItem.h"
@@ -45,6 +47,8 @@ static NSString *const GMCenterBackCellID = @"GMCenterBackCellID";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.tableView.backgroundColor = RGB(245, 245, 245);
+    self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero]; //去除多余分割线
+
     [self loadData];
     [self setupTopView];
     [self setupHeadView];
@@ -112,18 +116,24 @@ static NSString *const GMCenterBackCellID = @"GMCenterBackCellID";
     self.tableView.tableHeaderView = self.headView;
     self.headBGImageView.frame = self.headView.bounds;
     [self.headView insertSubview:self.headBGImageView atIndex:0];
+    kWeakSelf(self);
+    self.headView.headClickBlock = ^{
+        GMManagerController *manger = [[GMManagerController alloc]init];
+        [weakself.navigationController pushViewController:manger animated:YES];
+    };
+    
 }
 #pragma mark- 设置顶部导航栏
 - (void)setupTopView{
     _topView = [[GMMyCenterTopView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 64)];
-//    kWeakSelf(self);
+    kWeakSelf(self);
     ///左边item点击
     _topView.leftItemClickBlock = ^{
-        DLog(@"zzzz");
     };
     ///右边item点击
     _topView.rightItemClickBlock = ^{
-        DLog(@"rrrr");
+        GMSettingController *setting = [[GMSettingController alloc]init];
+        [weakself.navigationController pushViewController:setting animated:YES];
     };
     [self.view addSubview:_topView];
 

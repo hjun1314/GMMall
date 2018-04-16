@@ -54,6 +54,13 @@
 		F0318AAF207F590700825887 /* GMCenterShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0318AAD207F590700825887 /* GMCenterShopCell.xib */; };
 		F0318AB3207F5D2400825887 /* GMCenterBackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AB1207F5D2400825887 /* GMCenterBackCell.m */; };
 		F0318AB4207F5D2400825887 /* GMCenterBackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0318AB2207F5D2400825887 /* GMCenterBackCell.xib */; };
+		F05E0EA9208444C800021BB0 /* GMStateItemReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EA8208444C800021BB0 /* GMStateItemReusableView.m */; };
+		F05E0EAC20844AC900021BB0 /* GMSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EAB20844AC900021BB0 /* GMSettingController.m */; };
+		F05E0EAF20844B7400021BB0 /* GMManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EAE20844B7400021BB0 /* GMManagerController.m */; };
+		F05E0EB220844E5200021BB0 /* GMUserMgHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EB120844E5200021BB0 /* GMUserMgHeadView.m */; };
+		F05E0EB420844E6E00021BB0 /* GMUserMgHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05E0EB320844E6E00021BB0 /* GMUserMgHeadView.xib */; };
+		F05E0EB820848F0A00021BB0 /* GMUserBgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EB620848F0A00021BB0 /* GMUserBgCell.m */; };
+		F05E0EB920848F0A00021BB0 /* GMUserBgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F05E0EB720848F0A00021BB0 /* GMUserBgCell.xib */; };
 		F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */; };
 		F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFEE207B1077005F8B30 /* GMNavController.m */; };
 		F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078EFF1207B1739005F8B30 /* GMTabController.m */; };
@@ -168,6 +175,18 @@
 		F0318AB0207F5D2400825887 /* GMCenterBackCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMCenterBackCell.h; sourceTree = "<group>"; };
 		F0318AB1207F5D2400825887 /* GMCenterBackCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMCenterBackCell.m; sourceTree = "<group>"; };
 		F0318AB2207F5D2400825887 /* GMCenterBackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMCenterBackCell.xib; sourceTree = "<group>"; };
+		F05E0EA7208444C800021BB0 /* GMStateItemReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMStateItemReusableView.h; sourceTree = "<group>"; };
+		F05E0EA8208444C800021BB0 /* GMStateItemReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMStateItemReusableView.m; sourceTree = "<group>"; };
+		F05E0EAA20844AC900021BB0 /* GMSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSettingController.h; sourceTree = "<group>"; };
+		F05E0EAB20844AC900021BB0 /* GMSettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMSettingController.m; sourceTree = "<group>"; };
+		F05E0EAD20844B7400021BB0 /* GMManagerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMManagerController.h; sourceTree = "<group>"; };
+		F05E0EAE20844B7400021BB0 /* GMManagerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMManagerController.m; sourceTree = "<group>"; };
+		F05E0EB020844E5200021BB0 /* GMUserMgHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMUserMgHeadView.h; sourceTree = "<group>"; };
+		F05E0EB120844E5200021BB0 /* GMUserMgHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMUserMgHeadView.m; sourceTree = "<group>"; };
+		F05E0EB320844E6E00021BB0 /* GMUserMgHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMUserMgHeadView.xib; sourceTree = "<group>"; };
+		F05E0EB520848F0A00021BB0 /* GMUserBgCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMUserBgCell.h; sourceTree = "<group>"; };
+		F05E0EB620848F0A00021BB0 /* GMUserBgCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMUserBgCell.m; sourceTree = "<group>"; };
+		F05E0EB720848F0A00021BB0 /* GMUserBgCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMUserBgCell.xib; sourceTree = "<group>"; };
 		F078EFE7207AFFC5005F8B30 /* MacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
 		F078EFE8207AFFC5005F8B30 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		F078EFE9207AFFC6005F8B30 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
@@ -285,6 +304,9 @@
 				F031772C207DE6050064E4F2 /* GMMyCenterHeadView.h */,
 				F031772D207DE6050064E4F2 /* GMMyCenterHeadView.m */,
 				F031772F207DE6230064E4F2 /* GMMyCenterHeadView.xib */,
+				F05E0EB020844E5200021BB0 /* GMUserMgHeadView.h */,
+				F05E0EB120844E5200021BB0 /* GMUserMgHeadView.m */,
+				F05E0EB320844E6E00021BB0 /* GMUserMgHeadView.xib */,
 			);
 			path = CustormView;
 			sourceTree = "<group>";
@@ -301,6 +323,9 @@
 		F0317728207DDE7E0064E4F2 /* MainCell */ = {
 			isa = PBXGroup;
 			children = (
+				F05E0EB520848F0A00021BB0 /* GMUserBgCell.h */,
+				F05E0EB620848F0A00021BB0 /* GMUserBgCell.m */,
+				F05E0EB720848F0A00021BB0 /* GMUserBgCell.xib */,
 			);
 			path = MainCell;
 			sourceTree = "<group>";
@@ -319,6 +344,8 @@
 		F031772A207DDEB20064E4F2 /* SubController */ = {
 			isa = PBXGroup;
 			children = (
+				F05E0EAD20844B7400021BB0 /* GMManagerController.h */,
+				F05E0EAE20844B7400021BB0 /* GMManagerController.m */,
 			);
 			path = SubController;
 			sourceTree = "<group>";
@@ -350,6 +377,8 @@
 				F0318A4E207F01E200825887 /* GMStateItemCell.h */,
 				F0318A4F207F01E200825887 /* GMStateItemCell.m */,
 				F0318A50207F01E200825887 /* GMStateItemCell.xib */,
+				F05E0EA7208444C800021BB0 /* GMStateItemReusableView.h */,
+				F05E0EA8208444C800021BB0 /* GMStateItemReusableView.m */,
 			);
 			path = FirstSection;
 			sourceTree = "<group>";
@@ -737,6 +766,8 @@
 		F090F8E6207DAFB900546EB6 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				F05E0EAA20844AC900021BB0 /* GMSettingController.h */,
+				F05E0EAB20844AC900021BB0 /* GMSettingController.m */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -1114,9 +1145,11 @@
 				F0318A92207F160D00825887 /* HomeHighGoods.plist in Resources */,
 				F0318A8E207F160D00825887 /* DeliveryAdress.plist in Resources */,
 				F0318A82207F160D00825887 /* ClassiftyGoods01.plist in Resources */,
+				F05E0EB920848F0A00021BB0 /* GMUserBgCell.xib in Resources */,
 				F0318A7A207F160D00825887 /* loading2.gif in Resources */,
 				F0318A8A207F160D00825887 /* CommentPic.plist in Resources */,
 				F0318A8F207F160D00825887 /* MessageNote.plist in Resources */,
+				F05E0EB420844E6E00021BB0 /* GMUserMgHeadView.xib in Resources */,
 				F078F034207B6CB9005F8B30 /* GMPhoneRegistView.xib in Resources */,
 				F0318AB4207F5D2400825887 /* GMCenterBackCell.xib in Resources */,
 				F0318A52207F01E200825887 /* GMStateItemCell.xib in Resources */,
@@ -1233,6 +1266,7 @@
 				F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */,
 				F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */,
 				F0318A2A207EFB8500825887 /* GMCenterItemCell.m in Sources */,
+				F05E0EAC20844AC900021BB0 /* GMSettingController.m in Sources */,
 				F031772E207DE6050064E4F2 /* GMMyCenterHeadView.m in Sources */,
 				F078F02D207B6C62005F8B30 /* GMAccountPwdView.m in Sources */,
 				F0318AAE207F590700825887 /* GMCenterShopCell.m in Sources */,
@@ -1245,6 +1279,7 @@
 				F0318A55207F030F00825887 /* GMStateItem.m in Sources */,
 				F0C58925207C4F1500CE448F /* DCSpeedy.m in Sources */,
 				F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */,
+				F05E0EAF20844B7400021BB0 /* GMManagerController.m in Sources */,
 				F0C0B892207A0D5400379213 /* main.m in Sources */,
 				F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */,
 				F0C5892E207C679200CE448F /* GMConsts.m in Sources */,
@@ -1259,10 +1294,13 @@
 				F0318A24207EF22B00825887 /* GMMyCenterBtn.m in Sources */,
 				F078F008207B36AE005F8B30 /* GMBaseController.m in Sources */,
 				F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */,
+				F05E0EA9208444C800021BB0 /* GMStateItemReusableView.m in Sources */,
 				F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */,
 				F0318AAA207F48FD00825887 /* UIColor+GMColorChange.m in Sources */,
 				F0318A51207F01E200825887 /* GMStateItemCell.m in Sources */,
+				F05E0EB820848F0A00021BB0 /* GMUserBgCell.m in Sources */,
 				F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */,
+				F05E0EB220844E5200021BB0 /* GMUserMgHeadView.m in Sources */,
 				F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */,
 				F078F032207B6CAD005F8B30 /* GMPhoneRegistView.m in Sources */,
 			);

@@ -9,6 +9,7 @@
 #import "GMCenterItemCell.h"
 ///views
 #import "GMStateItemCell.h"
+#import "GMStateItemReusableView.h"
 //vendors
 //#import <MJExtension.h>
 //models
@@ -19,7 +20,7 @@
 
 @end
 static NSString *const GMStateItemCellID = @"GMStateItemCellID";
-
+static NSString *const GMStateItemReusableViewID = @"GMStateItemReusableViewID";
 @implementation GMCenterItemCell
 - (UICollectionView *)collectionView{
     if (_collectionView == nil) {
@@ -69,6 +70,14 @@ static NSString *const GMStateItemCellID = @"GMStateItemCellID";
     GMStateItemCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:GMStateItemCellID forIndexPath:indexPath];
     cell.stateItem = _stateItem[indexPath.row];
     return cell;
+}
+- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath{
+    UICollectionReusableView *reusableView = [[UICollectionReusableView alloc]init];
+    if (kind == UICollectionElementKindSectionFooter) {
+        GMStateItemReusableView *reus = [collectionView dequeueReusableSupplementaryViewOfKind: UICollectionElementKindSectionFooter withReuseIdentifier:GMStateItemReusableViewID forIndexPath:indexPath];
+        reusableView = reus;
+    }
+    return reusableView;
 }
 #pragma mark - <UICollectionViewDelegateFlowLayout>
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{

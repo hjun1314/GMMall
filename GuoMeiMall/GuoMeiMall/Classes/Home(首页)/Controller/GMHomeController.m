@@ -7,7 +7,6 @@
 //
 
 #import "GMHomeController.h"
-
 @interface GMHomeController ()
 
 @end
@@ -17,6 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor brownColor];
+    
 }
 
 - (void)didReceiveMemoryWarning {

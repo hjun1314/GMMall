@@ -15,7 +15,8 @@
 - (void)awakeFromNib{
     [super awakeFromNib];
    ///设定头像圆角
-    [DCSpeedy dc_chageControlCircularWith:_BtnIcon AndSetCornerRadius:_BtnIcon.width * 0.5 SetBorderWidth:1 SetBorderColor:[UIColor whiteColor] canMasksToBounds:YES];
+//    [DCSpeedy dc_chageControlCircularWith:_BtnIcon AndSetCornerRadius:_BtnIcon.width * 0.5 SetBorderWidth:1 SetBorderColor:[UIColor whiteColor] canMasksToBounds:YES];
+    [DCSpeedy dc_setUpBezierPathCircularLayerWithControl:_BtnIcon size:CGSizeMake(_BtnIcon.width * 0.5, _BtnIcon.height * 0.5)];
     _lookVipBtn.backgroundColor = RGB(252, 246, 213);
     [DCSpeedy dc_chageControlCircularWith:_lookVipBtn AndSetCornerRadius: 10 SetBorderWidth:1 SetBorderColor:RGB(252, 246, 213) canMasksToBounds:YES];
 }

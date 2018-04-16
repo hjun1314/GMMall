@@ -72,6 +72,7 @@ static const NSString * CSToastQueueKey             = @"CSToastQueueKey";
 
 - (void)makeToast:(NSString *)message duration:(NSTimeInterval)duration position:(id)position {
     [self makeToast:message duration:duration position:position style:nil];
+
 }
 
 - (void)makeToast:(NSString *)message duration:(NSTimeInterval)duration position:(id)position style:(CSToastStyle *)style {

@@ -40,7 +40,7 @@
 
 - (IBAction)didClickLoginBtn:(UIButton *)sender {
     [self endEditing:YES];
-
+    
     [SVProgressHUD show];
     [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
     kWeakSelf(self);
@@ -71,7 +71,7 @@
         });
         
     }
-
+    
 }
 #pragma mark - <UITextFieldDelegate>
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
@@ -82,7 +82,7 @@
         _loginBtn.enabled = NO;
         _loginBtn.backgroundColor = [UIColor lightGrayColor];
     }
-  
+    
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self endEditing:YES];
