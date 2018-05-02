@@ -13,6 +13,7 @@
 #import <Masonry.h>
 #import "DCSpeedy.h" //便捷方法
 #import "DCObjManager.h"  //存取
+#import "DCCheckRegular.h"//正则判断
 #import "GMNotificationName.h"
 #import "GMConsts.h"
 //分类

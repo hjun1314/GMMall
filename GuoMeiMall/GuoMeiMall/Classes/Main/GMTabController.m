@@ -80,9 +80,13 @@
 #pragma mark- tabbarDelegate
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
     if (viewController == [tabBarController.viewControllers objectAtIndex:GMTabControllerPerson]) {
-        GMLoginController *loginVC = [GMLoginController new];
-        [self presentViewController:loginVC animated:YES completion:nil];
-        return NO;
+        ///判断是否登录状态
+        if (![[DCObjManager dc_readUserDataForKey:@"isLogin"]isEqualToString:@"1"]) {
+            GMLoginController *loginVC = [GMLoginController new];
+            [self presentViewController:loginVC animated:YES completion:nil];
+            return NO;
+        }
+        
     }
     return YES;
 }

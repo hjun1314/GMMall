@@ -8,7 +8,7 @@
 
 // Controllers
 #import "GMManagerController.h"
-
+#import "GMReceivedAddressController.h"
 // Models
 
 // Views
@@ -52,7 +52,7 @@ static NSString *const GMUserBgCellID = @"GMUserBgCellID";
     self.tableView.tableHeaderView = _mgHeadView;
     self.tableView.tableFooterView = [UIView new];
     self.tableView.tableFooterView.backgroundColor = [UIColor clearColor];
-    self.tableView.rowHeight = 46;
+    self.tableView.rowHeight = 44;
 }
 - (void)setupBase{
     self.title = @"账号管理";
@@ -92,6 +92,11 @@ static NSString *const GMUserBgCellID = @"GMUserBgCellID";
     cell.titleLabelText.text = _userMgItem.firstObject[indexPath.row];
     cell.subTitleLabel.text = _userMgItem.lastObject[indexPath.row];
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    GMReceivedAddressController *received = [[GMReceivedAddressController alloc]init];
+    [self.navigationController pushViewController:received animated:YES];
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

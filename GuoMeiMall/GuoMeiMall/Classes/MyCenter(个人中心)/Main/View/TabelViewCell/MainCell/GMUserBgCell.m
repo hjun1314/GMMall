@@ -15,6 +15,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.selectionStyle = UITableViewCellSelectionStyleGray;
+   
 }
 - (void)setTitleLabelText:(UILabel *)titleLabelText{
     _titleLabelText = titleLabelText;

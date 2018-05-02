@@ -54,6 +54,32 @@
 		F0318AAF207F590700825887 /* GMCenterShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0318AAD207F590700825887 /* GMCenterShopCell.xib */; };
 		F0318AB3207F5D2400825887 /* GMCenterBackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AB1207F5D2400825887 /* GMCenterBackCell.m */; };
 		F0318AB4207F5D2400825887 /* GMCenterBackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0318AB2207F5D2400825887 /* GMCenterBackCell.xib */; };
+		F04541CD2085884B005DF4CE /* GMReceivedAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541CC2085884B005DF4CE /* GMReceivedAddressController.m */; };
+		F04541D120859234005DF4CE /* GMNewAddressController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541CF20859234005DF4CE /* GMNewAddressController.m */; };
+		F04541D220859234005DF4CE /* GMNewAddressController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04541D020859234005DF4CE /* GMNewAddressController.xib */; };
+		F04541E720859827005DF4CE /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541D520859827005DF4CE /* UIView+Frame.m */; };
+		F04541E820859827005DF4CE /* AddressItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541DA20859827005DF4CE /* AddressItem.m */; };
+		F04541E920859827005DF4CE /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = F04541DB20859827005DF4CE /* Cities.json */; };
+		F04541EA20859827005DF4CE /* ChooseLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541DF20859827005DF4CE /* ChooseLocationView.m */; };
+		F04541EB20859827005DF4CE /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04541E020859827005DF4CE /* AddressTableViewCell.xib */; };
+		F04541EC20859827005DF4CE /* AddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541E120859827005DF4CE /* AddressView.m */; };
+		F04541ED20859827005DF4CE /* AddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541E320859827005DF4CE /* AddressTableViewCell.m */; };
+		F04541EE20859827005DF4CE /* CitiesDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541E620859827005DF4CE /* CitiesDataTool.m */; };
+		F04541F12085A358005DF4CE /* GMNewAddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541F02085A358005DF4CE /* GMNewAddressView.m */; };
+		F04541F32085A36F005DF4CE /* GMNewAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04541F22085A36F005DF4CE /* GMNewAddressView.xib */; };
+		F04541F62085D8EA005DF4CE /* GMAddressItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541F52085D8EA005DF4CE /* GMAddressItem.m */; };
+		F04541F92085D900005DF4CE /* GMAddressDateBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541F82085D900005DF4CE /* GMAddressDateBase.m */; };
+		F04542122085FCE4005DF4CE /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541FB2085FCE4005DF4CE /* UINavigationController+MemoryLeak.m */; };
+		F04542132085FCE4005DF4CE /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F04541FF2085FCE4005DF4CE /* MLeakedObjectProxy.m */; };
+		F04542142085FCE4005DF4CE /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F04542012085FCE4005DF4CE /* UIView+MemoryLeak.m */; };
+		F04542152085FCE4005DF4CE /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F04542042085FCE4005DF4CE /* UITouch+MemoryLeak.m */; };
+		F04542162085FCE4005DF4CE /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F04542052085FCE4005DF4CE /* UISplitViewController+MemoryLeak.m */; };
+		F04542172085FCE4005DF4CE /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F04542072085FCE4005DF4CE /* UIPageViewController+MemoryLeak.m */; };
+		F04542182085FCE4005DF4CE /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F04542092085FCE4005DF4CE /* UITabBarController+MemoryLeak.m */; };
+		F04542192085FCE4005DF4CE /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = F045420A2085FCE4005DF4CE /* MLeaksMessenger.m */; };
+		F045421A2085FCE4005DF4CE /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F045420C2085FCE4005DF4CE /* UIViewController+MemoryLeak.m */; };
+		F045421B2085FCE4005DF4CE /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F045420F2085FCE4005DF4CE /* UIApplication+MemoryLeak.m */; };
+		F045421C2085FCE4005DF4CE /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F04542102085FCE4005DF4CE /* NSObject+MemoryLeak.m */; };
 		F05E0EA9208444C800021BB0 /* GMStateItemReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EA8208444C800021BB0 /* GMStateItemReusableView.m */; };
 		F05E0EAC20844AC900021BB0 /* GMSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EAB20844AC900021BB0 /* GMSettingController.m */; };
 		F05E0EAF20844B7400021BB0 /* GMManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EAE20844B7400021BB0 /* GMManagerController.m */; };
@@ -79,6 +105,8 @@
 		F078F02F207B6C83005F8B30 /* GMAccountPwdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078F02E207B6C83005F8B30 /* GMAccountPwdView.xib */; };
 		F078F032207B6CAD005F8B30 /* GMPhoneRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F031207B6CAD005F8B30 /* GMPhoneRegistView.m */; };
 		F078F034207B6CB9005F8B30 /* GMPhoneRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078F033207B6CB9005F8B30 /* GMPhoneRegistView.xib */; };
+		F08DC14E2099AAF3001BBE51 /* GMUserAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F08DC14C2099AAF3001BBE51 /* GMUserAddressCell.m */; };
+		F08DC14F2099AAF3001BBE51 /* GMUserAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08DC14D2099AAF3001BBE51 /* GMUserAddressCell.xib */; };
 		F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B883207A0D5400379213 /* AppDelegate.m */; };
 		F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C0B88B207A0D5400379213 /* Assets.xcassets */; };
 		F0C0B88F207A0D5400379213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C0B88D207A0D5400379213 /* LaunchScreen.storyboard */; };
@@ -175,6 +203,55 @@
 		F0318AB0207F5D2400825887 /* GMCenterBackCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMCenterBackCell.h; sourceTree = "<group>"; };
 		F0318AB1207F5D2400825887 /* GMCenterBackCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMCenterBackCell.m; sourceTree = "<group>"; };
 		F0318AB2207F5D2400825887 /* GMCenterBackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMCenterBackCell.xib; sourceTree = "<group>"; };
+		F04541CB2085884B005DF4CE /* GMReceivedAddressController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMReceivedAddressController.h; sourceTree = "<group>"; };
+		F04541CC2085884B005DF4CE /* GMReceivedAddressController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMReceivedAddressController.m; sourceTree = "<group>"; };
+		F04541CE20859234005DF4CE /* GMNewAddressController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNewAddressController.h; sourceTree = "<group>"; };
+		F04541CF20859234005DF4CE /* GMNewAddressController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNewAddressController.m; sourceTree = "<group>"; };
+		F04541D020859234005DF4CE /* GMNewAddressController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMNewAddressController.xib; sourceTree = "<group>"; };
+		F04541D520859827005DF4CE /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		F04541D620859827005DF4CE /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		F04541D920859827005DF4CE /* AddressItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressItem.h; sourceTree = "<group>"; };
+		F04541DA20859827005DF4CE /* AddressItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressItem.m; sourceTree = "<group>"; };
+		F04541DB20859827005DF4CE /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
+		F04541DD20859827005DF4CE /* AddressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressView.h; sourceTree = "<group>"; };
+		F04541DE20859827005DF4CE /* AddressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressTableViewCell.h; sourceTree = "<group>"; };
+		F04541DF20859827005DF4CE /* ChooseLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseLocationView.m; sourceTree = "<group>"; };
+		F04541E020859827005DF4CE /* AddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		F04541E120859827005DF4CE /* AddressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressView.m; sourceTree = "<group>"; };
+		F04541E220859827005DF4CE /* ChooseLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseLocationView.h; sourceTree = "<group>"; };
+		F04541E320859827005DF4CE /* AddressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressTableViewCell.m; sourceTree = "<group>"; };
+		F04541E520859827005DF4CE /* CitiesDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesDataTool.h; sourceTree = "<group>"; };
+		F04541E620859827005DF4CE /* CitiesDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesDataTool.m; sourceTree = "<group>"; };
+		F04541EF2085A358005DF4CE /* GMNewAddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNewAddressView.h; sourceTree = "<group>"; };
+		F04541F02085A358005DF4CE /* GMNewAddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNewAddressView.m; sourceTree = "<group>"; };
+		F04541F22085A36F005DF4CE /* GMNewAddressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMNewAddressView.xib; sourceTree = "<group>"; };
+		F04541F42085D8EA005DF4CE /* GMAddressItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAddressItem.h; sourceTree = "<group>"; };
+		F04541F52085D8EA005DF4CE /* GMAddressItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAddressItem.m; sourceTree = "<group>"; };
+		F04541F72085D900005DF4CE /* GMAddressDateBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAddressDateBase.h; sourceTree = "<group>"; };
+		F04541F82085D900005DF4CE /* GMAddressDateBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAddressDateBase.m; sourceTree = "<group>"; };
+		F04541FB2085FCE4005DF4CE /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		F04541FC2085FCE4005DF4CE /* MLeaksMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksMessenger.h; sourceTree = "<group>"; };
+		F04541FD2085FCE4005DF4CE /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		F04541FE2085FCE4005DF4CE /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		F04541FF2085FCE4005DF4CE /* MLeakedObjectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeakedObjectProxy.m; sourceTree = "<group>"; };
+		F04542002085FCE4005DF4CE /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		F04542012085FCE4005DF4CE /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		F04542022085FCE4005DF4CE /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		F04542032085FCE4005DF4CE /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+		F04542042085FCE4005DF4CE /* UITouch+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+MemoryLeak.m"; sourceTree = "<group>"; };
+		F04542052085FCE4005DF4CE /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		F04542062085FCE4005DF4CE /* MLeaksFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksFinder.h; sourceTree = "<group>"; };
+		F04542072085FCE4005DF4CE /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		F04542082085FCE4005DF4CE /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeakedObjectProxy.h; sourceTree = "<group>"; };
+		F04542092085FCE4005DF4CE /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		F045420A2085FCE4005DF4CE /* MLeaksMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeaksMessenger.m; sourceTree = "<group>"; };
+		F045420B2085FCE4005DF4CE /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		F045420C2085FCE4005DF4CE /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		F045420D2085FCE4005DF4CE /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		F045420E2085FCE4005DF4CE /* UITouch+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+MemoryLeak.h"; sourceTree = "<group>"; };
+		F045420F2085FCE4005DF4CE /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		F04542102085FCE4005DF4CE /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		F04542112085FCE4005DF4CE /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MemoryLeak.h"; sourceTree = "<group>"; };
 		F05E0EA7208444C800021BB0 /* GMStateItemReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMStateItemReusableView.h; sourceTree = "<group>"; };
 		F05E0EA8208444C800021BB0 /* GMStateItemReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMStateItemReusableView.m; sourceTree = "<group>"; };
 		F05E0EAA20844AC900021BB0 /* GMSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSettingController.h; sourceTree = "<group>"; };
@@ -223,6 +300,9 @@
 		F078F030207B6CAD005F8B30 /* GMPhoneRegistView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMPhoneRegistView.h; sourceTree = "<group>"; };
 		F078F031207B6CAD005F8B30 /* GMPhoneRegistView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMPhoneRegistView.m; sourceTree = "<group>"; };
 		F078F033207B6CB9005F8B30 /* GMPhoneRegistView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMPhoneRegistView.xib; sourceTree = "<group>"; };
+		F08DC14B2099AAF3001BBE51 /* GMUserAddressCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMUserAddressCell.h; sourceTree = "<group>"; };
+		F08DC14C2099AAF3001BBE51 /* GMUserAddressCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMUserAddressCell.m; sourceTree = "<group>"; };
+		F08DC14D2099AAF3001BBE51 /* GMUserAddressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMUserAddressCell.xib; sourceTree = "<group>"; };
 		F0C0B87F207A0D5400379213 /* GuoMeiMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuoMeiMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C0B882207A0D5400379213 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F0C0B883207A0D5400379213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -307,6 +387,9 @@
 				F05E0EB020844E5200021BB0 /* GMUserMgHeadView.h */,
 				F05E0EB120844E5200021BB0 /* GMUserMgHeadView.m */,
 				F05E0EB320844E6E00021BB0 /* GMUserMgHeadView.xib */,
+				F04541EF2085A358005DF4CE /* GMNewAddressView.h */,
+				F04541F02085A358005DF4CE /* GMNewAddressView.m */,
+				F04541F22085A36F005DF4CE /* GMNewAddressView.xib */,
 			);
 			path = CustormView;
 			sourceTree = "<group>";
@@ -326,6 +409,9 @@
 				F05E0EB520848F0A00021BB0 /* GMUserBgCell.h */,
 				F05E0EB620848F0A00021BB0 /* GMUserBgCell.m */,
 				F05E0EB720848F0A00021BB0 /* GMUserBgCell.xib */,
+				F08DC14B2099AAF3001BBE51 /* GMUserAddressCell.h */,
+				F08DC14C2099AAF3001BBE51 /* GMUserAddressCell.m */,
+				F08DC14D2099AAF3001BBE51 /* GMUserAddressCell.xib */,
 			);
 			path = MainCell;
 			sourceTree = "<group>";
@@ -346,6 +432,11 @@
 			children = (
 				F05E0EAD20844B7400021BB0 /* GMManagerController.h */,
 				F05E0EAE20844B7400021BB0 /* GMManagerController.m */,
+				F04541CB2085884B005DF4CE /* GMReceivedAddressController.h */,
+				F04541CC2085884B005DF4CE /* GMReceivedAddressController.m */,
+				F04541CE20859234005DF4CE /* GMNewAddressController.h */,
+				F04541CF20859234005DF4CE /* GMNewAddressController.m */,
+				F04541D020859234005DF4CE /* GMNewAddressController.xib */,
 			);
 			path = SubController;
 			sourceTree = "<group>";
@@ -540,6 +631,97 @@
 			path = "Category(分类)";
 			sourceTree = "<group>";
 		};
+		F04541D320859827005DF4CE /* ChooseLocation */ = {
+			isa = PBXGroup;
+			children = (
+				F04541D420859827005DF4CE /* Category */,
+				F04541D720859827005DF4CE /* ChooseLocation */,
+				F04541E420859827005DF4CE /* Tool */,
+			);
+			path = ChooseLocation;
+			sourceTree = "<group>";
+		};
+		F04541D420859827005DF4CE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F04541D520859827005DF4CE /* UIView+Frame.m */,
+				F04541D620859827005DF4CE /* UIView+Frame.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F04541D720859827005DF4CE /* ChooseLocation */ = {
+			isa = PBXGroup;
+			children = (
+				F04541D820859827005DF4CE /* Model */,
+				F04541DC20859827005DF4CE /* View */,
+			);
+			path = ChooseLocation;
+			sourceTree = "<group>";
+		};
+		F04541D820859827005DF4CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F04541D920859827005DF4CE /* AddressItem.h */,
+				F04541DA20859827005DF4CE /* AddressItem.m */,
+				F04541DB20859827005DF4CE /* Cities.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F04541DC20859827005DF4CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F04541DD20859827005DF4CE /* AddressView.h */,
+				F04541DE20859827005DF4CE /* AddressTableViewCell.h */,
+				F04541DF20859827005DF4CE /* ChooseLocationView.m */,
+				F04541E020859827005DF4CE /* AddressTableViewCell.xib */,
+				F04541E120859827005DF4CE /* AddressView.m */,
+				F04541E220859827005DF4CE /* ChooseLocationView.h */,
+				F04541E320859827005DF4CE /* AddressTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F04541E420859827005DF4CE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F04541E520859827005DF4CE /* CitiesDataTool.h */,
+				F04541E620859827005DF4CE /* CitiesDataTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F04541FA2085FCE4005DF4CE /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				F04541FB2085FCE4005DF4CE /* UINavigationController+MemoryLeak.m */,
+				F04541FC2085FCE4005DF4CE /* MLeaksMessenger.h */,
+				F04541FD2085FCE4005DF4CE /* UITabBarController+MemoryLeak.h */,
+				F04541FE2085FCE4005DF4CE /* UIPageViewController+MemoryLeak.h */,
+				F04541FF2085FCE4005DF4CE /* MLeakedObjectProxy.m */,
+				F04542002085FCE4005DF4CE /* UIViewController+MemoryLeak.h */,
+				F04542012085FCE4005DF4CE /* UIView+MemoryLeak.m */,
+				F04542022085FCE4005DF4CE /* NSObject+MemoryLeak.h */,
+				F04542032085FCE4005DF4CE /* UIApplication+MemoryLeak.h */,
+				F04542042085FCE4005DF4CE /* UITouch+MemoryLeak.m */,
+				F04542052085FCE4005DF4CE /* UISplitViewController+MemoryLeak.m */,
+				F04542062085FCE4005DF4CE /* MLeaksFinder.h */,
+				F04542072085FCE4005DF4CE /* UIPageViewController+MemoryLeak.m */,
+				F04542082085FCE4005DF4CE /* MLeakedObjectProxy.h */,
+				F04542092085FCE4005DF4CE /* UITabBarController+MemoryLeak.m */,
+				F045420A2085FCE4005DF4CE /* MLeaksMessenger.m */,
+				F045420B2085FCE4005DF4CE /* UINavigationController+MemoryLeak.h */,
+				F045420C2085FCE4005DF4CE /* UIViewController+MemoryLeak.m */,
+				F045420D2085FCE4005DF4CE /* UISplitViewController+MemoryLeak.h */,
+				F045420E2085FCE4005DF4CE /* UITouch+MemoryLeak.h */,
+				F045420F2085FCE4005DF4CE /* UIApplication+MemoryLeak.m */,
+				F04542102085FCE4005DF4CE /* NSObject+MemoryLeak.m */,
+				F04542112085FCE4005DF4CE /* UIView+MemoryLeak.h */,
+			);
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
 		F078EFE6207AFFA3005F8B30 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -597,6 +779,10 @@
 			children = (
 				F0318A53207F030F00825887 /* GMStateItem.h */,
 				F0318A54207F030F00825887 /* GMStateItem.m */,
+				F04541F42085D8EA005DF4CE /* GMAddressItem.h */,
+				F04541F52085D8EA005DF4CE /* GMAddressItem.m */,
+				F04541F72085D900005DF4CE /* GMAddressDateBase.h */,
+				F04541F82085D900005DF4CE /* GMAddressDateBase.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -828,6 +1014,7 @@
 		F0C0B8B4207A0D7300379213 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F04541FA2085FCE4005DF4CE /* MLeaksFinder */,
 				F078EFF6207B3580005F8B30 /* MyCenter(个人中心) */,
 				F078EFE6207AFFA3005F8B30 /* Other */,
 				F0C0B8B6207A139400379213 /* BeautyMessage(美信) */,
@@ -1016,6 +1203,7 @@
 		F0C58932207C690300CE448F /* Vendors(第三方) */ = {
 			isa = PBXGroup;
 			children = (
+				F04541D320859827005DF4CE /* ChooseLocation */,
 				F0C58933207C691A00CE448F /* ToastView */,
 			);
 			path = "Vendors(第三方)";
@@ -1140,6 +1328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04541F32085A36F005DF4CE /* GMNewAddressView.xib in Resources */,
 				F078F02F207B6C83005F8B30 /* GMAccountPwdView.xib in Resources */,
 				F0318A80207F160D00825887 /* ClassiftyGoods03.plist in Resources */,
 				F0318A92207F160D00825887 /* HomeHighGoods.plist in Resources */,
@@ -1163,10 +1352,12 @@
 				F0318A84207F160D00825887 /* FootprintGoods.plist in Resources */,
 				F0318AAF207F590700825887 /* GMCenterShopCell.xib in Resources */,
 				F078F02A207B67A4005F8B30 /* GMLoginController.xib in Resources */,
+				F08DC14F2099AAF3001BBE51 /* GMUserAddressCell.xib in Resources */,
 				F0318A7E207F160D00825887 /* ClassifyTitles.plist in Resources */,
 				F0318A8D207F160D00825887 /* CommentBadData.plist in Resources */,
 				F0318A81207F160D00825887 /* ClasiftyGoods.plist in Resources */,
 				F0318A7C207F160D00825887 /* moveupAndDown@2x.gif in Resources */,
+				F04541D220859234005DF4CE /* GMNewAddressController.xib in Resources */,
 				F0318A7B207F160D00825887 /* T1cdxgB5_T1RCvBVdK.gif in Resources */,
 				F0318A79207F160D00825887 /* loading.gif in Resources */,
 				F0318A7D207F160D00825887 /* shareTerrace.plist in Resources */,
@@ -1175,10 +1366,12 @@
 				F0318A8B207F160D00825887 /* MyCenterFlow.plist in Resources */,
 				F0318A89207F160D00825887 /* YouLikeGoods.plist in Resources */,
 				F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */,
+				F04541E920859827005DF4CE /* Cities.json in Resources */,
 				F0318A86207F160D00825887 /* FiltrateItem.plist in Resources */,
 				F0318A85207F160D00825887 /* ShopItem.plist in Resources */,
 				F0318A7F207F160D00825887 /* DetailRecommend.plist in Resources */,
 				F0318A94207F160D00825887 /* RecommendShop.plist in Resources */,
+				F04541EB20859827005DF4CE /* AddressTableViewCell.xib in Resources */,
 				F0317730207DE6230064E4F2 /* GMMyCenterHeadView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1263,19 +1456,33 @@
 				F078F00B207B3951005F8B30 /* GMMyCenterController.m in Sources */,
 				F078F01C207B4C77005F8B30 /* GMNewFeatureController.m in Sources */,
 				F078F023207B5A48005F8B30 /* GMAppVersion.m in Sources */,
+				F04541F92085D900005DF4CE /* GMAddressDateBase.m in Sources */,
 				F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */,
+				F045421A2085FCE4005DF4CE /* UIViewController+MemoryLeak.m in Sources */,
+				F04542152085FCE4005DF4CE /* UITouch+MemoryLeak.m in Sources */,
+				F04541F12085A358005DF4CE /* GMNewAddressView.m in Sources */,
+				F04542142085FCE4005DF4CE /* UIView+MemoryLeak.m in Sources */,
+				F04541EA20859827005DF4CE /* ChooseLocationView.m in Sources */,
 				F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */,
 				F0318A2A207EFB8500825887 /* GMCenterItemCell.m in Sources */,
+				F04541E820859827005DF4CE /* AddressItem.m in Sources */,
 				F05E0EAC20844AC900021BB0 /* GMSettingController.m in Sources */,
+				F04542172085FCE4005DF4CE /* UIPageViewController+MemoryLeak.m in Sources */,
 				F031772E207DE6050064E4F2 /* GMMyCenterHeadView.m in Sources */,
 				F078F02D207B6C62005F8B30 /* GMAccountPwdView.m in Sources */,
+				F04542122085FCE4005DF4CE /* UINavigationController+MemoryLeak.m in Sources */,
 				F0318AAE207F590700825887 /* GMCenterShopCell.m in Sources */,
 				F0C58928207C4F1500CE448F /* Foundation+Log.m in Sources */,
 				F0318A98207F2C1100825887 /* GMCenterServiceCell.m in Sources */,
 				F0317733207DF3800064E4F2 /* GMMyCenterTopView.m in Sources */,
 				F078F017207B3BE3005F8B30 /* GMHomeController.m in Sources */,
+				F04542192085FCE4005DF4CE /* MLeaksMessenger.m in Sources */,
+				F04542132085FCE4005DF4CE /* MLeakedObjectProxy.m in Sources */,
 				F0318AB3207F5D2400825887 /* GMCenterBackCell.m in Sources */,
+				F04542182085FCE4005DF4CE /* UITabBarController+MemoryLeak.m in Sources */,
 				F0C58926207C4F1500CE448F /* DCCheckRegular.m in Sources */,
+				F04541F62085D8EA005DF4CE /* GMAddressItem.m in Sources */,
+				F04541ED20859827005DF4CE /* AddressTableViewCell.m in Sources */,
 				F0318A55207F030F00825887 /* GMStateItem.m in Sources */,
 				F0C58925207C4F1500CE448F /* DCSpeedy.m in Sources */,
 				F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */,
@@ -1284,15 +1491,23 @@
 				F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */,
 				F0C5892E207C679200CE448F /* GMConsts.m in Sources */,
 				F078F029207B67A4005F8B30 /* GMLoginController.m in Sources */,
+				F04541E720859827005DF4CE /* UIView+Frame.m in Sources */,
 				F0C58927207C4F1500CE448F /* DCObjManager.m in Sources */,
+				F045421B2085FCE4005DF4CE /* UIApplication+MemoryLeak.m in Sources */,
+				F04541D120859234005DF4CE /* GMNewAddressController.m in Sources */,
 				F078F011207B3A44005F8B30 /* GMBeautyShopController.m in Sources */,
 				F0C58929207C4F1500CE448F /* DCPlaceholderTextView.m in Sources */,
+				F04541EE20859827005DF4CE /* CitiesDataTool.m in Sources */,
 				F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */,
+				F04541EC20859827005DF4CE /* AddressView.m in Sources */,
+				F08DC14E2099AAF3001BBE51 /* GMUserAddressCell.m in Sources */,
 				F0318AA6207F352B00825887 /* GMGoodsGridModel.m in Sources */,
+				F045421C2085FCE4005DF4CE /* NSObject+MemoryLeak.m in Sources */,
 				F0318A27207EF3A900825887 /* GMShareBtn.m in Sources */,
 				F0318AA3207F351000825887 /* GMGoodsGridCell.m in Sources */,
 				F0318A24207EF22B00825887 /* GMMyCenterBtn.m in Sources */,
 				F078F008207B36AE005F8B30 /* GMBaseController.m in Sources */,
+				F04541CD2085884B005DF4CE /* GMReceivedAddressController.m in Sources */,
 				F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */,
 				F05E0EA9208444C800021BB0 /* GMStateItemReusableView.m in Sources */,
 				F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */,
@@ -1300,6 +1515,7 @@
 				F0318A51207F01E200825887 /* GMStateItemCell.m in Sources */,
 				F05E0EB820848F0A00021BB0 /* GMUserBgCell.m in Sources */,
 				F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */,
+				F04542162085FCE4005DF4CE /* UISplitViewController+MemoryLeak.m in Sources */,
 				F05E0EB220844E5200021BB0 /* GMUserMgHeadView.m in Sources */,
 				F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */,
 				F078F032207B6CAD005F8B30 /* GMPhoneRegistView.m in Sources */,
@@ -1464,7 +1680,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/hjun/Desktop/GuoMeiMall/GuoMeiMall/GuoMeiMall/PrefixHeader.pch;
 				INFOPLIST_FILE = GuoMeiMall/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cl-ele.GuoMeiMall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1483,7 +1699,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/hjun/Desktop/GuoMeiMall/GuoMeiMall/GuoMeiMall/PrefixHeader.pch;
 				INFOPLIST_FILE = GuoMeiMall/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cl-ele.GuoMeiMall";
 				PRODUCT_NAME = "$(TARGET_NAME)";
