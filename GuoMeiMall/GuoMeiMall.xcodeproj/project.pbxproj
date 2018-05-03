@@ -673,12 +673,12 @@
 			isa = PBXGroup;
 			children = (
 				F04541DD20859827005DF4CE /* AddressView.h */,
-				F04541DE20859827005DF4CE /* AddressTableViewCell.h */,
-				F04541DF20859827005DF4CE /* ChooseLocationView.m */,
-				F04541E020859827005DF4CE /* AddressTableViewCell.xib */,
 				F04541E120859827005DF4CE /* AddressView.m */,
 				F04541E220859827005DF4CE /* ChooseLocationView.h */,
+				F04541DF20859827005DF4CE /* ChooseLocationView.m */,
+				F04541DE20859827005DF4CE /* AddressTableViewCell.h */,
 				F04541E320859827005DF4CE /* AddressTableViewCell.m */,
+				F04541E020859827005DF4CE /* AddressTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";

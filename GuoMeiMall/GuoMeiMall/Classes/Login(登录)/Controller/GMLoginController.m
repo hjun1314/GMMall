@@ -71,7 +71,7 @@
     _indicatorView.y = _titleView.bottom - _indicatorView.height;
     [_titleView addSubview:_indicatorView];
     self.contentView.contentSize = CGSizeMake(SCREEN_WIDTH * titleArray.count, 0);
-
+    
 }
 ///按钮点击
 - (void)didClickTitleViewBtn:(UIButton *)button{

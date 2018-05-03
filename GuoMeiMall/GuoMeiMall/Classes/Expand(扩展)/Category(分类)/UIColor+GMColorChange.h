@@ -11,6 +11,5 @@
 @interface UIColor (GMColorChange)
 #pragma mark - 十六进制颜色
 + (UIColor *)GM_colorWithHexString:(NSString *)color;
-@property (nonatomic,strong)NSArray *aa;
 
 @end

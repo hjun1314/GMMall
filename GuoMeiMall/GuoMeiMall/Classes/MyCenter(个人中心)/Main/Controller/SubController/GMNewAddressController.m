@@ -25,7 +25,7 @@
 @interface GMNewAddressController ()<UITableViewDelegate,UITableViewDataSource,UIGestureRecognizerDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *addBtn;
 @property (nonatomic,strong)UITableView *tableView;
-@property (nonatomic,strong)GMNewAddressView *headView;
+@property (nonatomic,strong)GMNewAddressView *addressView;
 @property (nonatomic,strong)ChooseLocationView *chooseLocationView;
 @property (nonatomic,strong)UIView *cover;
 
@@ -36,7 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupBase];
-    [self setupHeadView];
+    [self setupAddressView];
 }
 
 
@@ -63,34 +63,34 @@
 #pragma mark- 点击了rightItem保存
 - (void)didClickSaveBtn{
     [self.view endEditing:YES];
-    if (self.headView.regionLabel.text.length == 0 && self.headView.nameField.text.length == 0 && self.headView.contactField.text.length == 0 && self.headView.detailTextView.text == 0) {
+    if (self.addressView.regionLabel.text.length == 0 && self.addressView.nameField.text.length == 0 && self.addressView.contactField.text.length == 0 && self.addressView.detailTextView.text == 0) {
         [self.view makeToast:@"当前编辑为空" duration:0.8 position:CSToastPositionCenter];
         return;
     }
-    NSString *address = (self.headView.regionLabel.text == nil) ? @"" : self.headView.regionLabel.text;
-    NSArray *storeArray = @[self.headView.nameField.text,self.headView.contactField.text,address,self.headView.detailTextView.text];
+    NSString *address = (self.addressView.regionLabel.text == nil) ? @"" : self.addressView.regionLabel.text;
+    NSArray *storeArray = @[self.addressView.nameField.text,self.addressView.contactField.text,address,self.addressView.detailTextView.text];
     [DCObjManager dc_saveUserData:storeArray forKey:@"StoreAddress"];
     [self.view makeToast:@"保存成功" duration:0.5 position:CSToastPositionCenter];
 }
 #pragma mark- 点击了页面底部按钮保存
 - (IBAction)didClickAddBtn:(UIButton *)sender {
-    if (_headView.nameField.text.length == 0 ||
-        _headView.contactField.text.length == 0 ||
-        _headView.regionLabel.text.length == 0 ||
-        _headView.detailTextView.text.length == 0) {
+    if (self.addressView.nameField.text.length == 0 ||
+        self.addressView.contactField.text.length == 0 ||
+        self.addressView.regionLabel.text.length == 0 ||
+        self.addressView.detailTextView.text.length == 0) {
         [self.view makeToast:@"请填写完整地址信息" duration:0.5 position:CSToastPositionCenter];
         [DCSpeedy dc_callFeedback];//触动效果
         return;
     }
-    if (![DCCheckRegular dc_checkTelNumber:_headView.contactField.text]) {
+    if (![DCCheckRegular dc_checkTelNumber:self.addressView.contactField.text]) {
         [self.view makeToast:@"输入的电话号码格式不对，请重新输入" duration:0.5 position:CSToastPositionCenter];
         return;
     }
     GMAddressItem *addressItem = (_saveType == GMSaveAddressNewType)? [GMAddressItem new] :_addressItem;
-    addressItem.userName = self.headView.nameField.text;
-    addressItem.userPhone = self.headView.contactField.text;
-    addressItem.userAdress = self.headView.detailTextView.text;
-    addressItem.chooseAdress = self.headView.regionLabel.text;
+    addressItem.userName = self.addressView.nameField.text;
+    addressItem.userPhone = self.addressView.contactField.text;
+    addressItem.userAdress = self.addressView.detailTextView.text;
+    addressItem.chooseAdress = self.addressView.regionLabel.text;
     addressItem.isDefault = @"1";
     if (self.saveType == GMSaveAddressNewType) {
         [[GMAddressDateBase sharedDataBase]addNewAddress:addressItem];
@@ -112,30 +112,30 @@
     });
     
 }
-#pragma mark- headView
-- (void)setupHeadView{
-    _headView = [GMNewAddressView addViewFromXib];
-    _headView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 200);
-    self.tableView.tableHeaderView = self.headView;
+#pragma mark- 设置addressView
+- (void)setupAddressView{
+    self.addressView = [GMNewAddressView addViewFromXib];
+    self.addressView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 200);
+    self.tableView.tableHeaderView = self.addressView;
     self.tableView.tableFooterView = [[UIView alloc]initWithFrame:CGRectZero];
     if (_saveType == GMSaveAddressEditType) {
-        _headView.nameField.text = _addressItem.userName;
-        _headView.contactField.text = _addressItem.userPhone;
-        _headView.regionLabel.text = _addressItem.chooseAdress;
-        _headView.detailTextView.text = _addressItem.userAdress;
+        self.addressView.nameField.text = _addressItem.userName;
+        self.addressView.contactField.text = _addressItem.userPhone;
+        self.addressView.regionLabel.text = _addressItem.chooseAdress;
+        self.addressView.detailTextView.text = _addressItem.userAdress;
     }else if (_saveType == GMSaveAddressNewType &&
     [DCObjManager dc_readUserDataForKey:@"StoreAddress"] != nil){
         /***存储编辑信息***/
      NSArray *storeAddressArray = [DCObjManager dc_readUserDataForKey:@"StoreAddress"];
-        self.headView.nameField.text = storeAddressArray[0];
-        self.headView.contactField.text = storeAddressArray[1];
-        self.headView.regionLabel.text = storeAddressArray[2];
-        self.headView.detailTextView.text = storeAddressArray[3];
+        self.addressView.nameField.text = storeAddressArray[0];
+        self.addressView.contactField.text = storeAddressArray[1];
+        self.addressView.regionLabel.text = storeAddressArray[2];
+        self.addressView.detailTextView.text = storeAddressArray[3];
         
     }
     kWeakSelf(self);
     //添加地址按钮点击方法
-    _headView.addressBtn = ^{
+     self.addressView.addressBtn = ^{
         [weakself.view endEditing:YES];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.25 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             weakself.cover.hidden = !weakself.cover.hidden;
@@ -166,7 +166,7 @@
         kWeakSelf(self);
         _chooseLocationView.chooseFinish = ^{
             [UIView animateWithDuration:0.25 animations:^{
-                weakself.headView.regionLabel.text = weakself.chooseLocationView.address;
+                weakself.addressView.regionLabel.text = weakself.chooseLocationView.address;
                 weakself.cover.hidden = YES;
             }];
         };

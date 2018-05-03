@@ -55,7 +55,7 @@
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.8 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 [[UIApplication sharedApplication].keyWindow.rootViewController dismissViewControllerAnimated:YES completion:^{
                     [weakself endEditing:YES];
-                    ///过滤控制器
+                    ///过滤控制器 跳转到登录后的控制器
                     if ([@[[GMHomeController class],[GMBeautyShopController class],[GMBeautyMessageController class],[GMMediaListController class]]containsObject:[[DCSpeedy dc_getCurrentVC]class]]) {
                         [[NSNotificationCenter defaultCenter]postNotificationName:LOGINSELECTCENTERINDEX object:nil];
                     }

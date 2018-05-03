@@ -47,7 +47,7 @@
     return file;
 }
 
-#pragma mark - NSUserDefults
+#pragma mark - NSUserDefults存储用户偏好设置
 + (void)dc_saveUserData:(id)data forKey:(NSString*)key
 {
     if (data)
