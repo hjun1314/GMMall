@@ -94,6 +94,7 @@ static NSString *const GMUserBgCellID = @"GMUserBgCellID";
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     GMReceivedAddressController *received = [[GMReceivedAddressController alloc]init];
     [self.navigationController pushViewController:received animated:YES];
 

@@ -22,4 +22,8 @@
 
 /* 默认地址 1为正常 2为默认 */
 @property (nonatomic, copy) NSString *isDefault;
+/***cell高度***/
+@property (nonatomic,assign)CGFloat cellHeight;
+
+
 @end

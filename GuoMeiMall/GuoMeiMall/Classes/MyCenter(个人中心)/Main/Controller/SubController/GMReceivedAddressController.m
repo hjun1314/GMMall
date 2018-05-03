@@ -26,7 +26,9 @@
 @property (nonatomic,strong)NSMutableArray <GMAddressItem *> *addressItem;
 
 @end
+
 static NSString *GMUserAddressCellID = @"GMUserAddressCellID";
+
 @implementation GMReceivedAddressController
 - (UITableView *)tableView{
     if (_tableView == nil) {
@@ -86,13 +88,47 @@ static NSString *GMUserAddressCellID = @"GMUserAddressCellID";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     GMUserAddressCell *cell = [tableView dequeueReusableCellWithIdentifier:GMUserAddressCellID forIndexPath:indexPath];
     cell.addressItem = self.addressItem[indexPath.row];
+    kWeakSelf(self);
+    /***删除按钮***/
+    cell.deleteBtnBlock = ^{
+        [SVProgressHUD show];
+        [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [SVProgressHUD dismiss];
+            [weakself.view makeToast:@"删除成功" duration:0.8 position:CSToastPositionCenter];
+            [[GMAddressDateBase sharedDataBase]deleteAddress:weakself.addressItem[indexPath.row]];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.75 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [weakself.addressItem removeObjectAtIndex:indexPath.row];
+                [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+            });
+        });
+    };
+    /***编辑按钮***/
+    cell.editBtnBlock = ^{
+        GMNewAddressController *address = [[GMNewAddressController alloc]init];
+        address.addressItem = weakself.addressItem[indexPath.row];
+        address.saveType = GMSaveAddressEditType;
+        [weakself.navigationController pushViewController:address animated:YES];
+    };
+    /***默认选中按钮***/
+    cell.selectDefauleBtn = ^(BOOL isSelect) {
+
+        for (NSInteger i = 0; i < weakself.addressItem.count; i++) {
+            GMAddressItem *addressItem = weakself.addressItem[i];
+            addressItem.isDefault = (i == indexPath.row && isSelect) ? @"2" : @"1";
+            [[GMAddressDateBase sharedDataBase]updateAddress:addressItem];
+        }
+        weakself.addressItem = [[GMAddressDateBase sharedDataBase]getAllAddressData];
+        [weakself.tableView reloadData];
+    };
+
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 100;
+    return self.addressItem[indexPath.row].cellHeight;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

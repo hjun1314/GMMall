@@ -64,7 +64,7 @@ static GMAddressDateBase *_dataBase = nil;
 - (void)deleteAddress:(GMAddressItem *)address{
     [_db open];
     
-    [_db executeUpdate:@"DELETE FROM adress WHERE address_id = ?",address.ID];
+    [_db executeUpdate:@"DELETE FROM adress WHERE adress_id = ?",address.ID];
     
     [_db close];
 }
