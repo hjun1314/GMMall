@@ -10,6 +10,7 @@
 #import "GMLoginController.h"
 #import "GMManagerController.h"
 #import "GMSettingController.h"
+#import "GMScanningController.h"
 //models
 #import "GMGoodsGridModel.h"
 #import "GMStateItem.h"
@@ -127,8 +128,10 @@ static NSString *const GMCenterBackCellID = @"GMCenterBackCellID";
 - (void)setupTopView{
     _topView = [[GMMyCenterTopView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 64)];
     kWeakSelf(self);
-    ///左边item点击
+    ///左边item点击 扫描按钮
     _topView.leftItemClickBlock = ^{
+        GMScanningController *scan = [[GMScanningController alloc]init];
+        [weakself.navigationController pushViewController:scan animated:YES];
     };
     ///右边item点击
     _topView.rightItemClickBlock = ^{

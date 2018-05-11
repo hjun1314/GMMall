@@ -83,7 +83,7 @@ static NSString *GMUserAddressCellID = @"GMUserAddressCellID";
 }
 #pragma mark- delegate&datasource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return self.addressItem.count;
+    return self.addressItem.count ;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     GMUserAddressCell *cell = [tableView dequeueReusableCellWithIdentifier:GMUserAddressCellID forIndexPath:indexPath];
@@ -121,7 +121,7 @@ static NSString *GMUserAddressCellID = @"GMUserAddressCellID";
         weakself.addressItem = [[GMAddressDateBase sharedDataBase]getAllAddressData];
         [weakself.tableView reloadData];
     };
-
+    
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{

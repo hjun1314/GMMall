@@ -34,7 +34,7 @@ headview下拉图片(9张随机背景图)滚动变大(scrollViewDidScroll)，并
 4.17
 "账号管理控制器"点击跳转至添加收货地址(GMReceivedAddressController)然后GMReceivedAddressController导航栏右边点击跳转至新增收货人地址或是编辑收货人地址控制器GMNewAddressController基本界面完成，实现方法：
 自定义addressView，添加了地区的第三方ChooseLocation和点击出现的阴影背景层(要多理解)
-利用FMDB写了个地址的工具类(新增地址，删除地址，更新地址，获取所有数据)，FMDB蛋疼...
+利用FMDB写了个地址的工具类(新增地址，删除地址，更新地址，获取所有数据)
 
 5.2
 处理添加地址的相关逻辑，具体实现:
@@ -44,3 +44,7 @@ headview下拉图片(9张随机背景图)滚动变大(scrollViewDidScroll)，并
 
 5.3
 完成删除地址编辑地址和默认选择按钮功能。具体逻辑看demo
+
+5.11
+完成个人页面导航栏左边扫描功能(主要还是用作者自己写的第三方)具体做法：
+创建控制器继承自第三方的扫描控制器，然后添加导航栏上面的获取相册和打开手电筒功能等

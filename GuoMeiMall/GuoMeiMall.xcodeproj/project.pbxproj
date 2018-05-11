@@ -47,8 +47,6 @@
 		F0318A94207F160D00825887 /* RecommendShop.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0318A78207F160D00825887 /* RecommendShop.plist */; };
 		F0318A98207F2C1100825887 /* GMCenterServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318A96207F2C1100825887 /* GMCenterServiceCell.m */; };
 		F0318A99207F2C1100825887 /* GMCenterServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0318A97207F2C1100825887 /* GMCenterServiceCell.xib */; };
-		F0318AA3207F351000825887 /* GMGoodsGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AA2207F351000825887 /* GMGoodsGridCell.m */; };
-		F0318AA6207F352B00825887 /* GMGoodsGridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AA5207F352B00825887 /* GMGoodsGridModel.m */; };
 		F0318AAA207F48FD00825887 /* UIColor+GMColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AA9207F48FD00825887 /* UIColor+GMColorChange.m */; };
 		F0318AAE207F590700825887 /* GMCenterShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0318AAC207F590700825887 /* GMCenterShopCell.m */; };
 		F0318AAF207F590700825887 /* GMCenterShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0318AAD207F590700825887 /* GMCenterShopCell.xib */; };
@@ -95,7 +93,6 @@
 		F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F00D207B3997005F8B30 /* GMBeautyMessageController.m */; };
 		F078F011207B3A44005F8B30 /* GMBeautyShopController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F010207B3A44005F8B30 /* GMBeautyShopController.m */; };
 		F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F013207B3A9C005F8B30 /* GMMediaListController.m */; };
-		F078F017207B3BE3005F8B30 /* GMHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F016207B3BE3005F8B30 /* GMHomeController.m */; };
 		F078F01C207B4C77005F8B30 /* GMNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F01B207B4C77005F8B30 /* GMNewFeatureController.m */; };
 		F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F01E207B4CB7005F8B30 /* GMNewFeatureCell.m */; };
 		F078F023207B5A48005F8B30 /* GMAppVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F022207B5A48005F8B30 /* GMAppVersion.m */; };
@@ -105,6 +102,19 @@
 		F078F02F207B6C83005F8B30 /* GMAccountPwdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078F02E207B6C83005F8B30 /* GMAccountPwdView.xib */; };
 		F078F032207B6CAD005F8B30 /* GMPhoneRegistView.m in Sources */ = {isa = PBXBuildFile; fileRef = F078F031207B6CAD005F8B30 /* GMPhoneRegistView.m */; };
 		F078F034207B6CB9005F8B30 /* GMPhoneRegistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F078F033207B6CB9005F8B30 /* GMPhoneRegistView.xib */; };
+		F07FDE0320A5864900725142 /* DCScanningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDDF720A5864900725142 /* DCScanningViewController.m */; };
+		F07FDE0420A5864900725142 /* flsah_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F07FDDF920A5864900725142 /* flsah_normal@2x.png */; };
+		F07FDE0520A5864900725142 /* navigationbarScanBg.png in Resources */ = {isa = PBXBuildFile; fileRef = F07FDDFC20A5864900725142 /* navigationbarScanBg.png */; };
+		F07FDE0620A5864900725142 /* DCScanTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDDFE20A5864900725142 /* DCScanTool.m */; };
+		F07FDE0720A5864900725142 /* flash_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F07FDDFF20A5864900725142 /* flash_select@2x.png */; };
+		F07FDE0820A5864900725142 /* DCFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDE0020A5864900725142 /* DCFlashButton.m */; };
+		F07FDE0920A5864900725142 /* DCScanIdentifyAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDE0120A5864900725142 /* DCScanIdentifyAreaView.m */; };
+		F07FDE0A20A5864900725142 /* sqr_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F07FDE0220A5864900725142 /* sqr_line@2x.png */; };
+		F07FDE1A20A5880700725142 /* GMHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDE0F20A5880700725142 /* GMHomeController.m */; };
+		F07FDE1B20A5880700725142 /* GMGoodsGridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDE1220A5880700725142 /* GMGoodsGridModel.m */; };
+		F07FDE1C20A5880700725142 /* GMGoodsGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDE1820A5880700725142 /* GMGoodsGridCell.m */; };
+		F07FDE2120A5896900725142 /* GMScanningController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDE2020A5896900725142 /* GMScanningController.m */; };
+		F07FDE2420A58AA000725142 /* GMScanTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F07FDE2320A58AA000725142 /* GMScanTopView.m */; };
 		F08DC14E2099AAF3001BBE51 /* GMUserAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F08DC14C2099AAF3001BBE51 /* GMUserAddressCell.m */; };
 		F08DC14F2099AAF3001BBE51 /* GMUserAddressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08DC14D2099AAF3001BBE51 /* GMUserAddressCell.xib */; };
 		F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B883207A0D5400379213 /* AppDelegate.m */; };
@@ -191,10 +201,6 @@
 		F0318A95207F2C1100825887 /* GMCenterServiceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMCenterServiceCell.h; sourceTree = "<group>"; };
 		F0318A96207F2C1100825887 /* GMCenterServiceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMCenterServiceCell.m; sourceTree = "<group>"; };
 		F0318A97207F2C1100825887 /* GMCenterServiceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMCenterServiceCell.xib; sourceTree = "<group>"; };
-		F0318AA1207F351000825887 /* GMGoodsGridCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMGoodsGridCell.h; sourceTree = "<group>"; };
-		F0318AA2207F351000825887 /* GMGoodsGridCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMGoodsGridCell.m; sourceTree = "<group>"; };
-		F0318AA4207F352B00825887 /* GMGoodsGridModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMGoodsGridModel.h; sourceTree = "<group>"; };
-		F0318AA5207F352B00825887 /* GMGoodsGridModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMGoodsGridModel.m; sourceTree = "<group>"; };
 		F0318AA8207F48FD00825887 /* UIColor+GMColorChange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+GMColorChange.h"; sourceTree = "<group>"; };
 		F0318AA9207F48FD00825887 /* UIColor+GMColorChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GMColorChange.m"; sourceTree = "<group>"; };
 		F0318AAB207F590700825887 /* GMCenterShopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMCenterShopCell.h; sourceTree = "<group>"; };
@@ -283,8 +289,6 @@
 		F078F010207B3A44005F8B30 /* GMBeautyShopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBeautyShopController.m; sourceTree = "<group>"; };
 		F078F012207B3A9C005F8B30 /* GMMediaListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMediaListController.h; sourceTree = "<group>"; };
 		F078F013207B3A9C005F8B30 /* GMMediaListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMediaListController.m; sourceTree = "<group>"; };
-		F078F015207B3BE3005F8B30 /* GMHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMHomeController.h; sourceTree = "<group>"; };
-		F078F016207B3BE3005F8B30 /* GMHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMHomeController.m; sourceTree = "<group>"; };
 		F078F01A207B4C77005F8B30 /* GMNewFeatureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNewFeatureController.h; sourceTree = "<group>"; };
 		F078F01B207B4C77005F8B30 /* GMNewFeatureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNewFeatureController.m; sourceTree = "<group>"; };
 		F078F01D207B4CB7005F8B30 /* GMNewFeatureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNewFeatureCell.h; sourceTree = "<group>"; };
@@ -300,6 +304,28 @@
 		F078F030207B6CAD005F8B30 /* GMPhoneRegistView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMPhoneRegistView.h; sourceTree = "<group>"; };
 		F078F031207B6CAD005F8B30 /* GMPhoneRegistView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMPhoneRegistView.m; sourceTree = "<group>"; };
 		F078F033207B6CB9005F8B30 /* GMPhoneRegistView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMPhoneRegistView.xib; sourceTree = "<group>"; };
+		F07FDDF720A5864900725142 /* DCScanningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCScanningViewController.m; sourceTree = "<group>"; };
+		F07FDDF820A5864900725142 /* DCScanTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCScanTool.h; sourceTree = "<group>"; };
+		F07FDDF920A5864900725142 /* flsah_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flsah_normal@2x.png"; sourceTree = "<group>"; };
+		F07FDDFA20A5864900725142 /* DCScanIdentifyAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCScanIdentifyAreaView.h; sourceTree = "<group>"; };
+		F07FDDFB20A5864900725142 /* DCFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFlashButton.h; sourceTree = "<group>"; };
+		F07FDDFC20A5864900725142 /* navigationbarScanBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationbarScanBg.png; sourceTree = "<group>"; };
+		F07FDDFD20A5864900725142 /* DCScanningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCScanningViewController.h; sourceTree = "<group>"; };
+		F07FDDFE20A5864900725142 /* DCScanTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCScanTool.m; sourceTree = "<group>"; };
+		F07FDDFF20A5864900725142 /* flash_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash_select@2x.png"; sourceTree = "<group>"; };
+		F07FDE0020A5864900725142 /* DCFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFlashButton.m; sourceTree = "<group>"; };
+		F07FDE0120A5864900725142 /* DCScanIdentifyAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCScanIdentifyAreaView.m; sourceTree = "<group>"; };
+		F07FDE0220A5864900725142 /* sqr_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sqr_line@2x.png"; sourceTree = "<group>"; };
+		F07FDE0E20A5880700725142 /* GMHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMHomeController.h; sourceTree = "<group>"; };
+		F07FDE0F20A5880700725142 /* GMHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMHomeController.m; sourceTree = "<group>"; };
+		F07FDE1120A5880700725142 /* GMGoodsGridModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGoodsGridModel.h; sourceTree = "<group>"; };
+		F07FDE1220A5880700725142 /* GMGoodsGridModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGoodsGridModel.m; sourceTree = "<group>"; };
+		F07FDE1720A5880700725142 /* GMGoodsGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMGoodsGridCell.h; sourceTree = "<group>"; };
+		F07FDE1820A5880700725142 /* GMGoodsGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMGoodsGridCell.m; sourceTree = "<group>"; };
+		F07FDE1F20A5896900725142 /* GMScanningController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMScanningController.h; sourceTree = "<group>"; };
+		F07FDE2020A5896900725142 /* GMScanningController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMScanningController.m; sourceTree = "<group>"; };
+		F07FDE2220A58AA000725142 /* GMScanTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMScanTopView.h; sourceTree = "<group>"; };
+		F07FDE2320A58AA000725142 /* GMScanTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMScanTopView.m; sourceTree = "<group>"; };
 		F08DC14B2099AAF3001BBE51 /* GMUserAddressCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMUserAddressCell.h; sourceTree = "<group>"; };
 		F08DC14C2099AAF3001BBE51 /* GMUserAddressCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMUserAddressCell.m; sourceTree = "<group>"; };
 		F08DC14D2099AAF3001BBE51 /* GMUserAddressCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMUserAddressCell.xib; sourceTree = "<group>"; };
@@ -587,39 +613,6 @@
 			path = "购物车Plist";
 			sourceTree = "<group>";
 		};
-		F0318A9D207F348000825887 /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				F0318A9F207F34B000825887 /* Cell */,
-				F0318AA0207F34B000825887 /* Footer */,
-				F0318A9E207F34B000825887 /* Header */,
-			);
-			path = CollectionView;
-			sourceTree = "<group>";
-		};
-		F0318A9E207F34B000825887 /* Header */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Header;
-			sourceTree = "<group>";
-		};
-		F0318A9F207F34B000825887 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				F0318AA1207F351000825887 /* GMGoodsGridCell.h */,
-				F0318AA2207F351000825887 /* GMGoodsGridCell.m */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		F0318AA0207F34B000825887 /* Footer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Footer;
-			sourceTree = "<group>";
-		};
 		F0318AA7207F48CA00825887 /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
@@ -634,6 +627,7 @@
 		F04541D320859827005DF4CE /* ChooseLocation */ = {
 			isa = PBXGroup;
 			children = (
+				F07FDDF620A5864900725142 /* CDDCDDScanning */,
 				F04541D420859827005DF4CE /* Category */,
 				F04541D720859827005DF4CE /* ChooseLocation */,
 				F04541E420859827005DF4CE /* Tool */,
@@ -840,32 +834,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		F078F000207B35A3005F8B30 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				F078F015207B3BE3005F8B30 /* GMHomeController.h */,
-				F078F016207B3BE3005F8B30 /* GMHomeController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		F078F001207B35A3005F8B30 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F0318AA4207F352B00825887 /* GMGoodsGridModel.h */,
-				F0318AA5207F352B00825887 /* GMGoodsGridModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		F078F002207B35A3005F8B30 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F0318A9D207F348000825887 /* CollectionView */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		F078F003207B35BB005F8B30 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -935,6 +903,121 @@
 				F078F026207B67A4005F8B30 /* GMLoginController.h */,
 				F078F027207B67A4005F8B30 /* GMLoginController.m */,
 				F078F028207B67A4005F8B30 /* GMLoginController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F07FDDF620A5864900725142 /* CDDCDDScanning */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDDFB20A5864900725142 /* DCFlashButton.h */,
+				F07FDE0020A5864900725142 /* DCFlashButton.m */,
+				F07FDDFD20A5864900725142 /* DCScanningViewController.h */,
+				F07FDDF720A5864900725142 /* DCScanningViewController.m */,
+				F07FDDF820A5864900725142 /* DCScanTool.h */,
+				F07FDDFE20A5864900725142 /* DCScanTool.m */,
+				F07FDDFA20A5864900725142 /* DCScanIdentifyAreaView.h */,
+				F07FDE0120A5864900725142 /* DCScanIdentifyAreaView.m */,
+				F07FDDF920A5864900725142 /* flsah_normal@2x.png */,
+				F07FDDFC20A5864900725142 /* navigationbarScanBg.png */,
+				F07FDDFF20A5864900725142 /* flash_select@2x.png */,
+				F07FDE0220A5864900725142 /* sqr_line@2x.png */,
+			);
+			path = CDDCDDScanning;
+			sourceTree = "<group>";
+		};
+		F07FDE0B20A587B000725142 /* Scan(扫描) */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE1E20A588CD00725142 /* Controller */,
+				F07FDE1D20A588CD00725142 /* View */,
+			);
+			path = "Scan(扫描)";
+			sourceTree = "<group>";
+		};
+		F07FDE0C20A5880700725142 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE0D20A5880700725142 /* Controller */,
+				F07FDE1020A5880700725142 /* Model */,
+				F07FDE1320A5880700725142 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F07FDE0D20A5880700725142 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE0E20A5880700725142 /* GMHomeController.h */,
+				F07FDE0F20A5880700725142 /* GMHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F07FDE1020A5880700725142 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE1120A5880700725142 /* GMGoodsGridModel.h */,
+				F07FDE1220A5880700725142 /* GMGoodsGridModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F07FDE1320A5880700725142 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE1420A5880700725142 /* CollectionView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F07FDE1420A5880700725142 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE1520A5880700725142 /* Footer */,
+				F07FDE1620A5880700725142 /* Cell */,
+				F07FDE1920A5880700725142 /* Header */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		F07FDE1520A5880700725142 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		F07FDE1620A5880700725142 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE1720A5880700725142 /* GMGoodsGridCell.h */,
+				F07FDE1820A5880700725142 /* GMGoodsGridCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F07FDE1920A5880700725142 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F07FDE1D20A588CD00725142 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE2220A58AA000725142 /* GMScanTopView.h */,
+				F07FDE2320A58AA000725142 /* GMScanTopView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F07FDE1E20A588CD00725142 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F07FDE1F20A5896900725142 /* GMScanningController.h */,
+				F07FDE2020A5896900725142 /* GMScanningController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1058,9 +1141,8 @@
 		F0C0B8B7207A139400379213 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
-				F078F000207B35A3005F8B30 /* Controller */,
-				F078F001207B35A3005F8B30 /* Model */,
-				F078F002207B35A3005F8B30 /* View */,
+				F07FDE0C20A5880700725142 /* Main */,
+				F07FDE0B20A587B000725142 /* Scan(扫描) */,
 			);
 			name = "Home(首页)";
 			path = "GuoMeiMall/Classes/Home(首页)";
@@ -1344,17 +1426,21 @@
 				F0318A52207F01E200825887 /* GMStateItemCell.xib in Resources */,
 				F0318A99207F2C1100825887 /* GMCenterServiceCell.xib in Resources */,
 				F0318A8C207F160D00825887 /* CommentData.plist in Resources */,
+				F07FDE0420A5864900725142 /* flsah_normal@2x.png in Resources */,
+				F07FDE0520A5864900725142 /* navigationbarScanBg.png in Resources */,
 				F0318A90207F160D00825887 /* MyServiceFlow.plist in Resources */,
 				F0318A91207F160D00825887 /* GoodsGrid.plist in Resources */,
 				F0318A88207F160D00825887 /* BeautyRecommendShop.plist in Resources */,
 				F0318A87207F160D00825887 /* BeautyShop.plist in Resources */,
 				F0C0B88F207A0D5400379213 /* LaunchScreen.storyboard in Resources */,
+				F07FDE0A20A5864900725142 /* sqr_line@2x.png in Resources */,
 				F0318A84207F160D00825887 /* FootprintGoods.plist in Resources */,
 				F0318AAF207F590700825887 /* GMCenterShopCell.xib in Resources */,
 				F078F02A207B67A4005F8B30 /* GMLoginController.xib in Resources */,
 				F08DC14F2099AAF3001BBE51 /* GMUserAddressCell.xib in Resources */,
 				F0318A7E207F160D00825887 /* ClassifyTitles.plist in Resources */,
 				F0318A8D207F160D00825887 /* CommentBadData.plist in Resources */,
+				F07FDE0720A5864900725142 /* flash_select@2x.png in Resources */,
 				F0318A81207F160D00825887 /* ClasiftyGoods.plist in Resources */,
 				F0318A7C207F160D00825887 /* moveupAndDown@2x.gif in Resources */,
 				F04541D220859234005DF4CE /* GMNewAddressController.xib in Resources */,
@@ -1458,8 +1544,10 @@
 				F078F023207B5A48005F8B30 /* GMAppVersion.m in Sources */,
 				F04541F92085D900005DF4CE /* GMAddressDateBase.m in Sources */,
 				F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */,
+				F07FDE0620A5864900725142 /* DCScanTool.m in Sources */,
 				F045421A2085FCE4005DF4CE /* UIViewController+MemoryLeak.m in Sources */,
 				F04542152085FCE4005DF4CE /* UITouch+MemoryLeak.m in Sources */,
+				F07FDE0320A5864900725142 /* DCScanningViewController.m in Sources */,
 				F04541F12085A358005DF4CE /* GMNewAddressView.m in Sources */,
 				F04542142085FCE4005DF4CE /* UIView+MemoryLeak.m in Sources */,
 				F04541EA20859827005DF4CE /* ChooseLocationView.m in Sources */,
@@ -1474,8 +1562,8 @@
 				F0318AAE207F590700825887 /* GMCenterShopCell.m in Sources */,
 				F0C58928207C4F1500CE448F /* Foundation+Log.m in Sources */,
 				F0318A98207F2C1100825887 /* GMCenterServiceCell.m in Sources */,
+				F07FDE1C20A5880700725142 /* GMGoodsGridCell.m in Sources */,
 				F0317733207DF3800064E4F2 /* GMMyCenterTopView.m in Sources */,
-				F078F017207B3BE3005F8B30 /* GMHomeController.m in Sources */,
 				F04542192085FCE4005DF4CE /* MLeaksMessenger.m in Sources */,
 				F04542132085FCE4005DF4CE /* MLeakedObjectProxy.m in Sources */,
 				F0318AB3207F5D2400825887 /* GMCenterBackCell.m in Sources */,
@@ -1485,10 +1573,13 @@
 				F04541ED20859827005DF4CE /* AddressTableViewCell.m in Sources */,
 				F0318A55207F030F00825887 /* GMStateItem.m in Sources */,
 				F0C58925207C4F1500CE448F /* DCSpeedy.m in Sources */,
+				F07FDE0820A5864900725142 /* DCFlashButton.m in Sources */,
 				F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */,
 				F05E0EAF20844B7400021BB0 /* GMManagerController.m in Sources */,
 				F0C0B892207A0D5400379213 /* main.m in Sources */,
 				F078EFEA207AFFC6005F8B30 /* UIView+Extension.m in Sources */,
+				F07FDE0920A5864900725142 /* DCScanIdentifyAreaView.m in Sources */,
+				F07FDE2120A5896900725142 /* GMScanningController.m in Sources */,
 				F0C5892E207C679200CE448F /* GMConsts.m in Sources */,
 				F078F029207B67A4005F8B30 /* GMLoginController.m in Sources */,
 				F04541E720859827005DF4CE /* UIView+Frame.m in Sources */,
@@ -1501,14 +1592,14 @@
 				F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */,
 				F04541EC20859827005DF4CE /* AddressView.m in Sources */,
 				F08DC14E2099AAF3001BBE51 /* GMUserAddressCell.m in Sources */,
-				F0318AA6207F352B00825887 /* GMGoodsGridModel.m in Sources */,
 				F045421C2085FCE4005DF4CE /* NSObject+MemoryLeak.m in Sources */,
 				F0318A27207EF3A900825887 /* GMShareBtn.m in Sources */,
-				F0318AA3207F351000825887 /* GMGoodsGridCell.m in Sources */,
 				F0318A24207EF22B00825887 /* GMMyCenterBtn.m in Sources */,
 				F078F008207B36AE005F8B30 /* GMBaseController.m in Sources */,
+				F07FDE2420A58AA000725142 /* GMScanTopView.m in Sources */,
 				F04541CD2085884B005DF4CE /* GMReceivedAddressController.m in Sources */,
 				F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */,
+				F07FDE1B20A5880700725142 /* GMGoodsGridModel.m in Sources */,
 				F05E0EA9208444C800021BB0 /* GMStateItemReusableView.m in Sources */,
 				F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */,
 				F0318AAA207F48FD00825887 /* UIColor+GMColorChange.m in Sources */,
@@ -1517,6 +1608,7 @@
 				F078EFF2207B1739005F8B30 /* GMTabController.m in Sources */,
 				F04542162085FCE4005DF4CE /* UISplitViewController+MemoryLeak.m in Sources */,
 				F05E0EB220844E5200021BB0 /* GMUserMgHeadView.m in Sources */,
+				F07FDE1A20A5880700725142 /* GMHomeController.m in Sources */,
 				F078F01F207B4CB7005F8B30 /* GMNewFeatureCell.m in Sources */,
 				F078F032207B6CAD005F8B30 /* GMPhoneRegistView.m in Sources */,
 			);
