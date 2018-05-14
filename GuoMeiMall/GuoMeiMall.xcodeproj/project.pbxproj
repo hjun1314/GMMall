@@ -78,6 +78,10 @@
 		F045421A2085FCE4005DF4CE /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F045420C2085FCE4005DF4CE /* UIViewController+MemoryLeak.m */; };
 		F045421B2085FCE4005DF4CE /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F045420F2085FCE4005DF4CE /* UIApplication+MemoryLeak.m */; };
 		F045421C2085FCE4005DF4CE /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = F04542102085FCE4005DF4CE /* NSObject+MemoryLeak.m */; };
+		F04A7F0520A82A0F0037BF4D /* GMCycleHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A7F0420A82A0F0037BF4D /* GMCycleHeadView.m */; };
+		F04A7F0920A83C870037BF4D /* GMBeautyShopRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F04A7F0720A83C870037BF4D /* GMBeautyShopRecommendCell.m */; };
+		F04A7F0A20A83C870037BF4D /* GMBeautyShopRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F04A7F0820A83C870037BF4D /* GMBeautyShopRecommendCell.xib */; };
+		F0520C7020A91D32001684B8 /* GMAccordingRightBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F0520C6F20A91D32001684B8 /* GMAccordingRightBtn.m */; };
 		F05E0EA9208444C800021BB0 /* GMStateItemReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EA8208444C800021BB0 /* GMStateItemReusableView.m */; };
 		F05E0EAC20844AC900021BB0 /* GMSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EAB20844AC900021BB0 /* GMSettingController.m */; };
 		F05E0EAF20844B7400021BB0 /* GMManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F05E0EAE20844B7400021BB0 /* GMManagerController.m */; };
@@ -131,6 +135,7 @@
 		F0C5892E207C679200CE448F /* GMConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5892D207C679200CE448F /* GMConsts.m */; };
 		F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C58930207C67AC00CE448F /* GMNotificationName.m */; };
 		F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C58935207C691A00CE448F /* UIView+Toast.m */; };
+		F0ED378020A6E67C004B4915 /* GMBeautyShopTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0ED377F20A6E67C004B4915 /* GMBeautyShopTopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -258,6 +263,13 @@
 		F045420F2085FCE4005DF4CE /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
 		F04542102085FCE4005DF4CE /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
 		F04542112085FCE4005DF4CE /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+		F04A7F0320A82A0F0037BF4D /* GMCycleHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMCycleHeadView.h; sourceTree = "<group>"; };
+		F04A7F0420A82A0F0037BF4D /* GMCycleHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMCycleHeadView.m; sourceTree = "<group>"; };
+		F04A7F0620A83C870037BF4D /* GMBeautyShopRecommendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBeautyShopRecommendCell.h; sourceTree = "<group>"; };
+		F04A7F0720A83C870037BF4D /* GMBeautyShopRecommendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBeautyShopRecommendCell.m; sourceTree = "<group>"; };
+		F04A7F0820A83C870037BF4D /* GMBeautyShopRecommendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMBeautyShopRecommendCell.xib; sourceTree = "<group>"; };
+		F0520C6E20A91D32001684B8 /* GMAccordingRightBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMAccordingRightBtn.h; sourceTree = "<group>"; };
+		F0520C6F20A91D32001684B8 /* GMAccordingRightBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMAccordingRightBtn.m; sourceTree = "<group>"; };
 		F05E0EA7208444C800021BB0 /* GMStateItemReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMStateItemReusableView.h; sourceTree = "<group>"; };
 		F05E0EA8208444C800021BB0 /* GMStateItemReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMStateItemReusableView.m; sourceTree = "<group>"; };
 		F05E0EAA20844AC900021BB0 /* GMSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMSettingController.h; sourceTree = "<group>"; };
@@ -357,6 +369,8 @@
 		F0C58930207C67AC00CE448F /* GMNotificationName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNotificationName.m; sourceTree = "<group>"; };
 		F0C58934207C691A00CE448F /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		F0C58935207C691A00CE448F /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		F0ED377E20A6E67C004B4915 /* GMBeautyShopTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBeautyShopTopView.h; sourceTree = "<group>"; };
+		F0ED377F20A6E67C004B4915 /* GMBeautyShopTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBeautyShopTopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -527,6 +541,8 @@
 				F0318A23207EF22B00825887 /* GMMyCenterBtn.m */,
 				F0318A25207EF3A900825887 /* GMShareBtn.h */,
 				F0318A26207EF3A900825887 /* GMShareBtn.m */,
+				F0520C6E20A91D32001684B8 /* GMAccordingRightBtn.h */,
+				F0520C6F20A91D32001684B8 /* GMAccordingRightBtn.m */,
 			);
 			path = customBtn;
 			sourceTree = "<group>";
@@ -738,6 +754,9 @@
 		F078EFF4207B34F3005F8B30 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F0ED377C20A6E565004B4915 /* CustormView */,
+				F0ED377D20A6E565004B4915 /* Header */,
+				F0ED377B20A6E565004B4915 /* Cell */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1000,6 +1019,8 @@
 		F07FDE1920A5880700725142 /* Header */ = {
 			isa = PBXGroup;
 			children = (
+				F04A7F0320A82A0F0037BF4D /* GMCycleHeadView.h */,
+				F04A7F0420A82A0F0037BF4D /* GMCycleHeadView.m */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -1300,6 +1321,32 @@
 			path = ToastView;
 			sourceTree = "<group>";
 		};
+		F0ED377B20A6E565004B4915 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F04A7F0620A83C870037BF4D /* GMBeautyShopRecommendCell.h */,
+				F04A7F0720A83C870037BF4D /* GMBeautyShopRecommendCell.m */,
+				F04A7F0820A83C870037BF4D /* GMBeautyShopRecommendCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F0ED377C20A6E565004B4915 /* CustormView */ = {
+			isa = PBXGroup;
+			children = (
+				F0ED377E20A6E67C004B4915 /* GMBeautyShopTopView.h */,
+				F0ED377F20A6E67C004B4915 /* GMBeautyShopTopView.m */,
+			);
+			path = CustormView;
+			sourceTree = "<group>";
+		};
+		F0ED377D20A6E565004B4915 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1416,6 +1463,7 @@
 				F0318A92207F160D00825887 /* HomeHighGoods.plist in Resources */,
 				F0318A8E207F160D00825887 /* DeliveryAdress.plist in Resources */,
 				F0318A82207F160D00825887 /* ClassiftyGoods01.plist in Resources */,
+				F04A7F0A20A83C870037BF4D /* GMBeautyShopRecommendCell.xib in Resources */,
 				F05E0EB920848F0A00021BB0 /* GMUserBgCell.xib in Resources */,
 				F0318A7A207F160D00825887 /* loading2.gif in Resources */,
 				F0318A8A207F160D00825887 /* CommentPic.plist in Resources */,
@@ -1553,6 +1601,7 @@
 				F04541EA20859827005DF4CE /* ChooseLocationView.m in Sources */,
 				F078F014207B3A9C005F8B30 /* GMMediaListController.m in Sources */,
 				F0318A2A207EFB8500825887 /* GMCenterItemCell.m in Sources */,
+				F0ED378020A6E67C004B4915 /* GMBeautyShopTopView.m in Sources */,
 				F04541E820859827005DF4CE /* AddressItem.m in Sources */,
 				F05E0EAC20844AC900021BB0 /* GMSettingController.m in Sources */,
 				F04542172085FCE4005DF4CE /* UIPageViewController+MemoryLeak.m in Sources */,
@@ -1563,6 +1612,7 @@
 				F0C58928207C4F1500CE448F /* Foundation+Log.m in Sources */,
 				F0318A98207F2C1100825887 /* GMCenterServiceCell.m in Sources */,
 				F07FDE1C20A5880700725142 /* GMGoodsGridCell.m in Sources */,
+				F04A7F0520A82A0F0037BF4D /* GMCycleHeadView.m in Sources */,
 				F0317733207DF3800064E4F2 /* GMMyCenterTopView.m in Sources */,
 				F04542192085FCE4005DF4CE /* MLeaksMessenger.m in Sources */,
 				F04542132085FCE4005DF4CE /* MLeakedObjectProxy.m in Sources */,
@@ -1585,9 +1635,11 @@
 				F04541E720859827005DF4CE /* UIView+Frame.m in Sources */,
 				F0C58927207C4F1500CE448F /* DCObjManager.m in Sources */,
 				F045421B2085FCE4005DF4CE /* UIApplication+MemoryLeak.m in Sources */,
+				F0520C7020A91D32001684B8 /* GMAccordingRightBtn.m in Sources */,
 				F04541D120859234005DF4CE /* GMNewAddressController.m in Sources */,
 				F078F011207B3A44005F8B30 /* GMBeautyShopController.m in Sources */,
 				F0C58929207C4F1500CE448F /* DCPlaceholderTextView.m in Sources */,
+				F04A7F0920A83C870037BF4D /* GMBeautyShopRecommendCell.m in Sources */,
 				F04541EE20859827005DF4CE /* CitiesDataTool.m in Sources */,
 				F078EFEF207B1077005F8B30 /* GMNavController.m in Sources */,
 				F04541EC20859827005DF4CE /* AddressView.m in Sources */,

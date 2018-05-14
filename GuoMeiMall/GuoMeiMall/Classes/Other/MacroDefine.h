@@ -229,4 +229,7 @@ return _instance;\
 #define PFR9Font [UIFont fontWithName:PFR size:9];
 #define PFR8Font [UIFont fontWithName:PFR size:8];
 
+/***美店轮播图***/
+#define GoodsBeautySilderImagesArray @[@"http://gfs8.gomein.net.cn/T1QtA_BXdT1RCvBVdK.jpg",@"http://gfs9.gomein.net.cn/T1__ZvB7Aj1RCvBVdK.jpg",@"http://gfs5.gomein.net.cn/T1SZ__B5VT1RCvBVdK.jpg"]
+
 #endif /* MacroDefine_h */

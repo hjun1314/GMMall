@@ -48,3 +48,6 @@ headview下拉图片(9张随机背景图)滚动变大(scrollViewDidScroll)，并
 5.11
 完成个人页面导航栏左边扫描功能(主要还是用作者自己写的第三方)具体做法：
 创建控制器继承自第三方的扫描控制器，然后添加导航栏上面的获取相册和打开手电筒功能等
+
+5.13 - 5.14
+完成了美店模块导航栏和顶部轮播图，自定义导航栏，然后根据控制器拖动改变状态。美店控制器View主要用UICollectionView完成，顶部的轮播图用自定义的继承自UICollectionReusableView的GMCycleHeadView，然后在CollectionView的代理或是数据源方法加载出来，另外顶部轮播主要是用SDCycleScrollView第三方完成的

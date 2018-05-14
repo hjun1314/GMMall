@@ -32,7 +32,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkG-un-3x3" customClass="DCZuoWenRightButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rkG-un-3x3" customClass="GMAccordingRightBtn">
                                 <rect key="frame" x="258" y="0.0" width="94" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="94" id="UVO-sg-inw"/>
