@@ -21,7 +21,7 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {
         [self setupUI];
-        [self setNotifi];
+       // [self setNotifi];
     }
     return self;
 }
