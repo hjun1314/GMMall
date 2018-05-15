@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class GMBeautyShopModel;
 @interface GMBeautyShopRecommendCell : UICollectionViewCell
+
+@property (nonatomic,strong)NSMutableArray <GMBeautyShopModel *> *dataArray;
 
 @end

@@ -135,6 +135,10 @@
 		F0C5892E207C679200CE448F /* GMConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C5892D207C679200CE448F /* GMConsts.m */; };
 		F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C58930207C67AC00CE448F /* GMNotificationName.m */; };
 		F0C58936207C691A00CE448F /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C58935207C691A00CE448F /* UIView+Toast.m */; };
+		F0E8A80620AAADA200863456 /* GMStoresRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A80420AAADA100863456 /* GMStoresRecommendCell.m */; };
+		F0E8A80720AAADA200863456 /* GMStoresRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0E8A80520AAADA100863456 /* GMStoresRecommendCell.xib */; };
+		F0E8A80A20AAB9C100863456 /* GMBeautyShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A80920AAB9C100863456 /* GMBeautyShopModel.m */; };
+		F0E8A80D20AAC56500863456 /* GMBeautyPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E8A80C20AAC56500863456 /* GMBeautyPageControl.m */; };
 		F0ED378020A6E67C004B4915 /* GMBeautyShopTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0ED377F20A6E67C004B4915 /* GMBeautyShopTopView.m */; };
 /* End PBXBuildFile section */
 
@@ -369,6 +373,13 @@
 		F0C58930207C67AC00CE448F /* GMNotificationName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMNotificationName.m; sourceTree = "<group>"; };
 		F0C58934207C691A00CE448F /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 		F0C58935207C691A00CE448F /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		F0E8A80320AAADA100863456 /* GMStoresRecommendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMStoresRecommendCell.h; sourceTree = "<group>"; };
+		F0E8A80420AAADA100863456 /* GMStoresRecommendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMStoresRecommendCell.m; sourceTree = "<group>"; };
+		F0E8A80520AAADA100863456 /* GMStoresRecommendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GMStoresRecommendCell.xib; sourceTree = "<group>"; };
+		F0E8A80820AAB9C100863456 /* GMBeautyShopModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBeautyShopModel.h; sourceTree = "<group>"; };
+		F0E8A80920AAB9C100863456 /* GMBeautyShopModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBeautyShopModel.m; sourceTree = "<group>"; };
+		F0E8A80B20AAC56500863456 /* GMBeautyPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBeautyPageControl.h; sourceTree = "<group>"; };
+		F0E8A80C20AAC56500863456 /* GMBeautyPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBeautyPageControl.m; sourceTree = "<group>"; };
 		F0ED377E20A6E67C004B4915 /* GMBeautyShopTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMBeautyShopTopView.h; sourceTree = "<group>"; };
 		F0ED377F20A6E67C004B4915 /* GMBeautyShopTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMBeautyShopTopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -764,6 +775,8 @@
 		F078EFF5207B34F3005F8B30 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F0E8A80820AAB9C100863456 /* GMBeautyShopModel.h */,
+				F0E8A80920AAB9C100863456 /* GMBeautyShopModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1327,6 +1340,9 @@
 				F04A7F0620A83C870037BF4D /* GMBeautyShopRecommendCell.h */,
 				F04A7F0720A83C870037BF4D /* GMBeautyShopRecommendCell.m */,
 				F04A7F0820A83C870037BF4D /* GMBeautyShopRecommendCell.xib */,
+				F0E8A80320AAADA100863456 /* GMStoresRecommendCell.h */,
+				F0E8A80420AAADA100863456 /* GMStoresRecommendCell.m */,
+				F0E8A80520AAADA100863456 /* GMStoresRecommendCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -1336,6 +1352,8 @@
 			children = (
 				F0ED377E20A6E67C004B4915 /* GMBeautyShopTopView.h */,
 				F0ED377F20A6E67C004B4915 /* GMBeautyShopTopView.m */,
+				F0E8A80B20AAC56500863456 /* GMBeautyPageControl.h */,
+				F0E8A80C20AAC56500863456 /* GMBeautyPageControl.m */,
 			);
 			path = CustormView;
 			sourceTree = "<group>";
@@ -1498,6 +1516,7 @@
 				F0318A83207F160D00825887 /* ClassiftyGoods02.plist in Resources */,
 				F0318A93207F160D00825887 /* CountDownShop.plist in Resources */,
 				F0318A8B207F160D00825887 /* MyCenterFlow.plist in Resources */,
+				F0E8A80720AAADA200863456 /* GMStoresRecommendCell.xib in Resources */,
 				F0318A89207F160D00825887 /* YouLikeGoods.plist in Resources */,
 				F0C0B88C207A0D5400379213 /* Assets.xcassets in Resources */,
 				F04541E920859827005DF4CE /* Cities.json in Resources */,
@@ -1622,6 +1641,7 @@
 				F04541F62085D8EA005DF4CE /* GMAddressItem.m in Sources */,
 				F04541ED20859827005DF4CE /* AddressTableViewCell.m in Sources */,
 				F0318A55207F030F00825887 /* GMStateItem.m in Sources */,
+				F0E8A80D20AAC56500863456 /* GMBeautyPageControl.m in Sources */,
 				F0C58925207C4F1500CE448F /* DCSpeedy.m in Sources */,
 				F07FDE0820A5864900725142 /* DCFlashButton.m in Sources */,
 				F078F00E207B3997005F8B30 /* GMBeautyMessageController.m in Sources */,
@@ -1651,6 +1671,8 @@
 				F07FDE2420A58AA000725142 /* GMScanTopView.m in Sources */,
 				F04541CD2085884B005DF4CE /* GMReceivedAddressController.m in Sources */,
 				F0C58931207C67AC00CE448F /* GMNotificationName.m in Sources */,
+				F0E8A80620AAADA200863456 /* GMStoresRecommendCell.m in Sources */,
+				F0E8A80A20AAB9C100863456 /* GMBeautyShopModel.m in Sources */,
 				F07FDE1B20A5880700725142 /* GMGoodsGridModel.m in Sources */,
 				F05E0EA9208444C800021BB0 /* GMStateItemReusableView.m in Sources */,
 				F0C0B884207A0D5400379213 /* AppDelegate.m in Sources */,

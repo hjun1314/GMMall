@@ -10,13 +10,13 @@
 #import "GMBeautyShopController.h"
 
 // Models
-
+#import "GMBeautyShopModel.h"
 // Views
 #import "GMBeautyShopTopView.h"
 #import "GMCycleHeadView.h"
 #import "GMBeautyShopRecommendCell.h"
 // Vendors
-
+#import <MJExtension.h>
 // Categories
 
 // Others
@@ -26,6 +26,9 @@
 /***轮播图***/
 @property (nonatomic,strong)GMCycleHeadView *cycleHeadView;
 @property (nonatomic,strong)UICollectionView *collectionView;
+/***第一个cell展示数据***/
+@property (nonatomic,strong)NSMutableArray <GMBeautyShopModel *> *beautyShopArray;
+
 
 @end
 static NSString *const GMCycleHeadViewID = @"GMCycleHeadView";
@@ -51,10 +54,20 @@ static NSString *const GMBeautyShopRecommandCellID = @"GMBeautyShopRecommandCell
     }
     return _collectionView;
 }
+- (NSMutableArray<GMBeautyShopModel *> *)beautyShopArray{
+    if (_beautyShopArray == nil) {
+        _beautyShopArray = [NSMutableArray array];
+    }
+    return _beautyShopArray;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupTopView];
+    [self loadData];
     self.collectionView.backgroundColor = self.view.backgroundColor;
+}
+- (void)loadData{
+    self.beautyShopArray = [GMBeautyShopModel mj_objectArrayWithFilename:@"BeautyRecommendShop.plist"];
 }
 - (void)setupTopView{
     self.topView = [[GMBeautyShopTopView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, kTopHeight)];
@@ -77,7 +90,7 @@ static NSString *const GMBeautyShopRecommandCellID = @"GMBeautyShopRecommandCell
     UICollectionViewCell *beautyCell = nil;
     //    if (indexPath.section == 0) {
     GMBeautyShopRecommendCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:GMBeautyShopRecommandCellID forIndexPath:indexPath];
-    //        cell.backgroundColor = [UIColor orangeColor];
+    cell.dataArray = self.beautyShopArray;
     beautyCell = cell;
     //    }
     return beautyCell;
